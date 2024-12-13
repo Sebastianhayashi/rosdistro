@@ -9883,6 +9883,9 @@ python3-vcstool:
       packages: [vcstool]
   rhel: [python3-vcstool]
   ubuntu: [python3-vcstool]
+  openeuler:
+    pip:
+      packages: [vcstool]  
 python3-vedo-pip:
   debian:
     pip:
