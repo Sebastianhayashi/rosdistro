@@ -5968,6 +5968,7 @@ python3-flake8-builtins:
     '*': [python3-flake8-builtins]
     bionic: null
     focal: null
+  openeuler: [python3-flake8]
 python3-flake8-builtins-pip:
   ubuntu:
     pip:
