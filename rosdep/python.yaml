@@ -6006,6 +6006,9 @@ python3-flake8-comprehensions:
     '*': [python3-flake8-comprehensions]
     bionic: null
     focal: null
+  openeuler:
+    pip:
+      packages:[flake8-comprehensions]
 python3-flake8-comprehensions-pip:
   ubuntu:
     pip:
