@@ -6019,7 +6019,7 @@ python3-flake8-comprehensions:
     focal: null
   openeuler:
     pip:
-      packages:[flake8-comprehensions]
+      packages: [flake8-comprehensions]
 python3-flake8-comprehensions-pip:
   ubuntu:
     pip:
