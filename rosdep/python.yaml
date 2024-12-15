@@ -5909,7 +5909,9 @@ python3-flake8:
   gentoo: [dev-python/flake8]
   nixos: [python3Packages.flake8]
   openembedded: [python3-flake8@meta-ros-common]
-  openeuler: [python3-flake8]
+  openeuler: 
+    pip: 
+      packages: [flake8]
   opensuse: [python3-flake8]
   osx:
     pip:
@@ -5941,6 +5943,9 @@ python3-flake8-blind-except:
       pip:
         packages: [flake8-blind-except]
   opensuse: [python3-flake8-blind-except]
+  openeuler: 
+    pip: 
+      packages: [flake8-blind-except]
   ubuntu:
     '*': [python3-flake8-blind-except]
     bionic: null
@@ -5959,6 +5964,9 @@ python3-flake8-builtins:
   nixos: []
   openembedded: [python3-flake8-builtins@meta-ros-common]
   opensuse: [python3-flake8-builtins]
+  openeuler: 
+    pip: 
+      packages: [flake8-builtins]
   rhel:
     '*': [python3-flake8-builtins]
     '8':
@@ -5980,6 +5988,9 @@ python3-flake8-class-newline:
       pip:
         packages: [flake8-class-newline]
   opensuse: [python3-flake8-class-newline]
+  openeuler: 
+    pip: 
+      packages: [flake8-class-newline]
   ubuntu:
     '*': [python3-flake8-class-newline]
     bionic: null
@@ -6020,6 +6031,9 @@ python3-flake8-deprecated:
       pip:
         packages: [flake8-deprecated]
   opensuse: [python3-flake8-deprecated]
+  openeuler: 
+    pip: 
+      packages: [flake8-deprecated]
   ubuntu:
     '*': [python3-flake8-deprecated]
     bionic: null
@@ -6036,6 +6050,9 @@ python3-flake8-docstrings:
   openembedded: [python3-flake8-docstrings@meta-ros-common]
   openeuler: [python3-flake8-docstrings]
   opensuse: [python3-flake8-docstrings]
+  openeuler: 
+    pip: 
+      packages: [flake8-docstrings]
   rhel:
     '*': [python3-flake8-docstrings]
     '7': null
@@ -6055,6 +6072,9 @@ python3-flake8-import-order:
   openembedded: [python3-flake8-import-order@meta-ros-common]
   openeuler: [python3-flake8-import-order]
   opensuse: [python3-flake8-import-order]
+  openeuler: 
+    pip: 
+      packages: [flake8-import-order]
   rhel:
     '*': [python3-flake8-import-order]
     '7': null
@@ -6093,6 +6113,9 @@ python3-flake8-quotes:
   nixos: []
   openembedded: [python3-flake8-quotes@meta-ros-common]
   opensuse: [python3-flake8-quotes]
+  openeuler: 
+    pip: 
+      packages: [flake8-quotes]
   rhel:
     '*': [python3-flake8-quotes]
     '7': null
