@@ -4372,6 +4372,7 @@ liblttng-ctl-dev:
   nixos: [lttng-tools]
   openembedded: [lttng-tools@openembedded-core]
   opensuse: [lttng-tools-devel]
+  openeuler: [lttng-tools-devel]
   rhel: [lttng-tools-devel]
   ubuntu: [liblttng-ctl-dev]
 liblttng-ust-dev:
