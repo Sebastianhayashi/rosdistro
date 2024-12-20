@@ -2,9 +2,9 @@
 yaml https://raw.githubusercontent.com/Grvzard/rosdistro/dev/rosdep/osx-homebrew.yaml osx
 
 # generic
-yaml https://raw.githubusercontent.com/Grvzard/rosdistro/dev/rosdep/base.yaml
-yaml https://raw.githubusercontent.com/Grvzard/rosdistro/dev/rosdep/python.yaml
-yaml https://raw.githubusercontent.com/Grvzard/rosdistro/dev/rosdep/ruby.yaml
-gbpdistro https://raw.githubusercontent.com/Grvzard/rosdistro/dev/releases/fuerte.yaml fuerte
+yaml https://github.com/Sebastianhayashi/rosdistro/blob/dev/rosdep/base.yaml
+yaml https://github.com/Sebastianhayashi/rosdistro/blob/dev/rosdep/python.yaml
+yaml https://github.com/Sebastianhayashi/rosdistro/blob/dev/rosdep/ruby.yaml
+gbpdistro https://github.com/Sebastianhayashi/rosdistro/blob/dev/releases/fuerte.yaml fuerte
 
 # newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead
