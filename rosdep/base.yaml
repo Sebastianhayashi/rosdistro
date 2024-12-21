@@ -6946,6 +6946,7 @@ lttng-tools:
   nixos: [lttng-tools]
   openembedded: [lttng-tools@openembedded-core]
   rhel: [lttng-tools]
+  openeuler: [lttng-tools]
   ubuntu: [lttng-tools]
 lua-dev:
   arch: [lua]
