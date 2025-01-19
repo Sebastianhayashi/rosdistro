@@ -9,6 +9,8 @@ release_platforms:
   - '9'
   ubuntu:
   - noble
+  openeuler:
+  - '24.03'
 repositories:
   SMACC2:
     doc:
