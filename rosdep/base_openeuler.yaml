@@ -55,7 +55,7 @@ acl:
   ubuntu:
   - acl
   - libacl1-dev
-  openEuler: *id001
+  openeuler: *id001
 acpi:
   arch:
   - acpi
@@ -69,7 +69,7 @@ acpi:
   - acpi
   ubuntu:
   - acpi
-  openEuler: *id002
+  openeuler: *id002
 acpitool:
   debian:
   - acpitool
@@ -111,7 +111,7 @@ alsa-utils:
   - alsa-utils
   ubuntu:
   - alsa-utils
-  openEuler: *id003
+  openeuler: *id003
 ant:
   arch:
   - ant
@@ -127,7 +127,7 @@ ant:
   - ant
   ubuntu:
   - ant
-  openEuler: *id004
+  openeuler: *id004
 antlr:
   arch:
   - antlr4
@@ -145,7 +145,7 @@ antlr:
   ubuntu:
   - antlr
   - libantlr-dev
-  openEuler: *id005
+  openeuler: *id005
 apache2:
   debian:
   - apache2
@@ -157,7 +157,7 @@ apache2:
   - apacheHttpd
   ubuntu:
   - apache2
-  openEuler: *id006
+  openeuler: *id006
 apache2-mpm-prefork:
   debian:
     wheezy:
@@ -216,7 +216,7 @@ apr:
   ubuntu:
   - libapr1-dev
   - libaprutil1-dev
-  openEuler: *id007
+  openeuler: *id007
 apt-transport-https:
   debian:
   - apt-transport-https
@@ -279,7 +279,7 @@ armadillo:
   - armadillo
   ubuntu:
   - libarmadillo-dev
-  openEuler: *id008
+  openeuler: *id008
 asio:
   alpine:
   - asio-dev
@@ -305,7 +305,7 @@ asio:
   - asio-devel
   ubuntu:
   - libasio-dev
-  openEuler: *id009
+  openeuler: *id009
 assimp:
   alpine:
   - assimp
@@ -334,7 +334,7 @@ assimp:
   ubuntu:
     '*':
     - libassimp-dev
-  openEuler: *id010
+  openeuler: *id010
 assimp-dev:
   alpine:
   - assimp-dev
@@ -361,7 +361,7 @@ assimp-dev:
   ubuntu:
     '*':
     - libassimp-dev
-  openEuler: *id011
+  openeuler: *id011
 at-spi2-core:
   arch:
   - at-spi2-core
@@ -377,7 +377,7 @@ at-spi2-core:
   - at-spi2-core
   ubuntu:
   - at-spi2-core
-  openEuler: *id012
+  openeuler: *id012
 atlas:
   debian:
   - libatlas-base-dev
@@ -415,7 +415,7 @@ autoconf:
   - autoconf
   ubuntu:
   - autoconf
-  openEuler: *id013
+  openeuler: *id013
 autoconf-archive:
   alpine:
   - autoconf-archive
@@ -439,7 +439,7 @@ autoconf-archive:
   - autoconf-archive
   ubuntu:
   - autoconf-archive
-  openEuler: *id014
+  openeuler: *id014
 automake:
   arch:
   - automake
@@ -464,7 +464,7 @@ automake:
   - automake
   ubuntu:
   - automake
-  openEuler: *id015
+  openeuler: *id015
 autopoint:
   arch:
   - gettext
@@ -474,7 +474,7 @@ autopoint:
   - gettext-devel
   ubuntu:
   - autopoint
-  openEuler: *id016
+  openeuler: *id016
 autossh:
   arch:
   - autossh
@@ -511,7 +511,7 @@ avahi-daemon:
   - avahi@openembedded-core
   ubuntu:
   - avahi-daemon
-  openEuler: *id017
+  openeuler: *id017
 avahi-utils:
   arch:
   - avahi
@@ -525,7 +525,7 @@ avahi-utils:
   - avahi
   ubuntu:
   - avahi-utils
-  openEuler: *id018
+  openeuler: *id018
 avr-libc:
   arch:
   - avr-libc
@@ -580,7 +580,7 @@ babeltrace:
   - babeltrace
   ubuntu:
   - babeltrace
-  openEuler: *id019
+  openeuler: *id019
 bandit:
   arch:
   - bandit
@@ -652,7 +652,7 @@ benchmark:
   ubuntu:
     '*':
     - libbenchmark-dev
-  openEuler: *id020
+  openeuler: *id020
 binutils:
   arch:
   - binutils
@@ -670,7 +670,7 @@ binutils:
   - binutils-devel
   ubuntu:
   - binutils-dev
-  openEuler: *id021
+  openeuler: *id021
 bison:
   alpine:
   - bison
@@ -692,7 +692,7 @@ bison:
   - bison
   ubuntu:
   - bison
-  openEuler: *id022
+  openeuler: *id022
 blender:
   arch:
   - blender
@@ -723,7 +723,7 @@ bluez:
   - bluez-libs
   ubuntu:
   - bluez
-  openEuler: *id023
+  openeuler: *id023
 bluez-hcidump:
   debian:
   - bluez-hcidump
@@ -814,7 +814,7 @@ bullet:
   ubuntu:
     '*':
     - libbullet-dev
-  openEuler: *id024
+  openeuler: *id024
 bullet-extras:
   arch:
   - bullet
@@ -861,7 +861,7 @@ bzip2:
       - bzip2
   ubuntu:
   - libbz2-dev
-  openEuler: *id025
+  openeuler: *id025
 ca-certificates:
   arch:
   - ca-certificates
@@ -883,7 +883,7 @@ ca-certificates:
   - ca-certificates
   ubuntu:
   - ca-certificates
-  openEuler: *id026
+  openeuler: *id026
 can-utils:
   debian:
   - can-utils
@@ -912,7 +912,7 @@ cargo:
   - cargo
   ubuntu:
   - cargo
-  openEuler: *id027
+  openeuler: *id027
 castxml:
   debian:
   - castxml
@@ -924,7 +924,7 @@ castxml:
   - castxml
   ubuntu:
   - castxml
-  openEuler: *id028
+  openeuler: *id028
 catch2:
   alpine:
   - catch2
@@ -1063,7 +1063,7 @@ chrony:
   - chrony
   ubuntu:
   - chrony
-  openEuler: *id029
+  openeuler: *id029
 clang:
   arch:
   - clang
@@ -1155,7 +1155,7 @@ clangd:
   - clang-tools-extra
   ubuntu:
   - clangd
-  openEuler: *id030
+  openeuler: *id030
 cli11:
   arch:
   - cli11
@@ -1317,7 +1317,7 @@ collectd:
   - collectd
   ubuntu:
   - collectd
-  openEuler: *id031
+  openeuler: *id031
 collectd-utils:
   debian:
   - collectd-utils
@@ -1325,7 +1325,7 @@ collectd-utils:
   - collectd-utils
   ubuntu:
   - collectd-utils
-  openEuler: *id032
+  openeuler: *id032
 comedi:
   debian:
   - libcomedi-dev
@@ -1348,7 +1348,7 @@ coreutils:
   - coreutils@openembedded-core
   ubuntu:
   - coreutils
-  openEuler: *id033
+  openeuler: *id033
 couchdb:
   arch:
   - couchdb
@@ -1396,7 +1396,7 @@ cppcheck:
   - cppcheck
   ubuntu:
   - cppcheck
-  openEuler: *id034
+  openeuler: *id034
 cppunit:
   alpine:
   - cppunit
@@ -1424,7 +1424,7 @@ cppunit:
   - cppunit
   ubuntu:
   - libcppunit-dev
-  openEuler: *id035
+  openeuler: *id035
 cpuburn:
   debian:
   - cpuburn
@@ -1443,7 +1443,7 @@ crypto++:
   - cryptopp
   ubuntu:
   - libcrypto++-dev
-  openEuler: *id036
+  openeuler: *id036
 curl:
   alpine:
   - curl-dev
@@ -1478,7 +1478,7 @@ curl:
   ubuntu:
   - libcurl4-openssl-dev
   - curl
-  openEuler: *id037
+  openeuler: *id037
 curlpp-dev:
   debian:
     '*':
@@ -1506,7 +1506,7 @@ cvs:
   - cvs
   ubuntu:
   - cvs
-  openEuler: *id038
+  openeuler: *id038
 cwiid:
   debian:
   - libcwiid1
@@ -1560,7 +1560,7 @@ dcraw:
   - dcraw
   ubuntu:
   - dcraw
-  openEuler: *id039
+  openeuler: *id039
 debhelper:
   debian:
   - debhelper
@@ -1568,7 +1568,7 @@ debhelper:
   - debhelper
   ubuntu:
   - debhelper
-  openEuler: *id040
+  openeuler: *id040
 debtree:
   debian:
   - debtree
@@ -1640,7 +1640,7 @@ dkms:
   - dkms
   ubuntu:
   - dkms
-  openEuler: *id041
+  openeuler: *id041
 dnsmasq:
   arch:
   - dnsmasq
@@ -1656,7 +1656,7 @@ dnsmasq:
   - dnsmasq@meta-networking
   ubuntu:
   - dnsmasq
-  openEuler: *id042
+  openeuler: *id042
 docker-compose:
   arch:
   - docker-compose
@@ -1668,7 +1668,7 @@ docker-compose:
   - docker-compose
   ubuntu:
   - docker-compose
-  openEuler: *id043
+  openeuler: *id043
 docker.io:
   debian:
     '*':
@@ -1681,7 +1681,7 @@ docker.io:
   - docker
   ubuntu:
   - docker.io
-  openEuler: *id044
+  openeuler: *id044
 doxygen:
   arch:
   - doxygen
@@ -1705,7 +1705,7 @@ doxygen:
   - doxygen
   ubuntu:
   - doxygen
-  openEuler: *id045
+  openeuler: *id045
 dpkg:
   arch:
   - dpkg
@@ -1723,7 +1723,7 @@ dpkg:
   - dpkg
   ubuntu:
   - dpkg
-  openEuler: *id046
+  openeuler: *id046
 dpkg-dev:
   debian:
   - dpkg-dev
@@ -1733,7 +1733,7 @@ dpkg-dev:
   - dpkg
   ubuntu:
   - dpkg-dev
-  openEuler: *id047
+  openeuler: *id047
 dvipng:
   arch:
   - texlive-bin
@@ -1768,7 +1768,7 @@ e2fsprogs:
   - e2fsprogs
   ubuntu:
   - e2fsprogs
-  openEuler: *id048
+  openeuler: *id048
 eclipse:
   debian:
   - eclipse
@@ -1795,7 +1795,7 @@ ed:
   - ed
   ubuntu:
   - ed
-  openEuler: *id049
+  openeuler: *id049
 eigen:
   alpine:
   - eigen-dev
@@ -1825,7 +1825,7 @@ eigen:
       - eigen3
   ubuntu:
   - libeigen3-dev
-  openEuler: *id050
+  openeuler: *id050
 eigen2:
   debian:
     wheezy:
@@ -1857,7 +1857,7 @@ emacs:
   - emacs@meta-oe
   ubuntu:
   - emacs
-  openEuler: *id051
+  openeuler: *id051
 embree:
   arch:
   - embree
@@ -1928,7 +1928,7 @@ ethtool:
   - ethtool
   ubuntu:
   - ethtool
-  openEuler: *id052
+  openeuler: *id052
 exfat-fuse:
   debian:
   - exfat-fuse
@@ -1970,7 +1970,7 @@ exiv2:
   - exiv2
   ubuntu:
   - exiv2
-  openEuler: *id053
+  openeuler: *id053
 f2c:
   debian:
   - f2c
@@ -2002,7 +2002,7 @@ fakeroot:
   - fakeroot
   ubuntu:
   - fakeroot
-  openEuler: *id054
+  openeuler: *id054
 fcgi:
   arch:
   - fcgi
@@ -2022,7 +2022,7 @@ fcgi:
   - libfcgi-dev
   - libapache2-mod-fastcgi
   - spawn-fcgi
-  openEuler: *id055
+  openeuler: *id055
 festival:
   arch:
   - festival
@@ -2178,7 +2178,7 @@ file:
   - file
   ubuntu:
   - file
-  openEuler: *id056
+  openeuler: *id056
 filezilla:
   arch:
   - filezilla
@@ -2207,7 +2207,7 @@ flac:
   - flac@openembedded-core
   ubuntu:
   - flac
-  openEuler: *id057
+  openeuler: *id057
 flawfinder:
   arch:
   - flawfinder
@@ -2242,7 +2242,7 @@ flex:
   - flex
   ubuntu:
   - flex
-  openEuler: *id058
+  openeuler: *id058
 flite:
   alpine:
   - flite
@@ -2260,7 +2260,7 @@ flite:
   - flite
   ubuntu:
   - flite
-  openEuler: *id059
+  openeuler: *id059
 fltk:
   arch:
   - fltk
@@ -2288,7 +2288,7 @@ fltk:
     focal:
     - fluid
     - libfltk1.3-dev
-  openEuler: *id060
+  openeuler: *id060
 fluid:
   arch:
   - fltk
@@ -2308,7 +2308,7 @@ fluid:
   - fltk-devel
   ubuntu:
   - fluid
-  openEuler: *id061
+  openeuler: *id061
 fluidsynth:
   alpine:
   - fluidsynth
@@ -2326,7 +2326,7 @@ fluidsynth:
   - fluidsynth
   ubuntu:
   - fluidsynth
-  openEuler: *id062
+  openeuler: *id062
 fmt:
   arch:
   - fmt
@@ -2348,7 +2348,7 @@ fmt:
   - fmt-devel
   ubuntu:
   - libfmt-dev
-  openEuler: *id063
+  openeuler: *id063
 fonts-noto:
   alpine:
   - font-noto
@@ -2365,7 +2365,7 @@ fonts-noto:
   - noto-fonts
   ubuntu:
   - fonts-noto
-  openEuler: *id064
+  openeuler: *id064
 fonts-roboto:
   arch:
   - ttf-roboto
@@ -2391,7 +2391,7 @@ fping:
   - fping
   ubuntu:
   - fping
-  openEuler: *id065
+  openeuler: *id065
 freeimage:
   arch:
   - freeimage
@@ -2409,7 +2409,7 @@ freeimage:
   - freeimage-devel
   ubuntu:
   - libfreeimage-dev
-  openEuler: *id066
+  openeuler: *id066
 freetype:
   alpine:
   - freetype
@@ -2427,7 +2427,7 @@ freetype:
   - freetype
   ubuntu:
   - libfreetype6
-  openEuler: *id067
+  openeuler: *id067
 fsharp:
   debian:
   - fsharp
@@ -2476,7 +2476,7 @@ fxload:
   - fxload
   ubuntu:
   - fxload
-  openEuler: *id068
+  openeuler: *id068
 g++-10:
   debian:
     bullseye:
@@ -2556,7 +2556,7 @@ gawk:
   - gawk@openembedded-core
   ubuntu:
   - gawk
-  openEuler: *id069
+  openeuler: *id069
 gazebo:
   arch:
   - gazebo
@@ -2762,7 +2762,7 @@ geos:
   - geos-devel
   ubuntu:
   - libgeos-dev
-  openEuler: *id070
+  openeuler: *id070
 gettext-base:
   arch:
   - gettext
@@ -2776,7 +2776,7 @@ gettext-base:
   - gettext
   ubuntu:
   - gettext-base
-  openEuler: *id071
+  openeuler: *id071
 gforth:
   debian:
   - gforth
@@ -2803,7 +2803,7 @@ gfortran:
   - gfortran
   ubuntu:
   - gfortran
-  openEuler: *id072
+  openeuler: *id072
 ghc:
   arch:
   - ghc
@@ -2843,7 +2843,7 @@ gimp:
   - gimp
   ubuntu:
   - gimp
-  openEuler: *id073
+  openeuler: *id073
 git:
   alpine:
   - git
@@ -2869,7 +2869,7 @@ git:
   - git
   ubuntu:
   - git
-  openEuler: *id074
+  openeuler: *id074
 git-lfs:
   alpine:
   - git-lfs
@@ -2919,7 +2919,7 @@ gitk:
   - gitFull
   ubuntu:
   - gitk
-  openEuler: *id075
+  openeuler: *id075
 gksu:
   debian:
   - gksu
@@ -2951,7 +2951,7 @@ glpk:
   - glpk-devel
   ubuntu:
   - libglpk-dev
-  openEuler: *id076
+  openeuler: *id076
 glslang-dev:
   alpine:
   - glslang-dev
@@ -3016,7 +3016,7 @@ glut:
   - freeglut-devel
   ubuntu:
   - freeglut3-dev
-  openEuler: *id077
+  openeuler: *id077
 gnat:
   debian:
   - gnat
@@ -3045,7 +3045,7 @@ gnome-terminal:
   - gnome-terminal
   ubuntu:
   - gnome-terminal
-  openEuler: *id078
+  openeuler: *id078
 gnuplot:
   arch:
   - gnuplot
@@ -3061,7 +3061,7 @@ gnuplot:
   - gnuplot@meta-oe
   ubuntu:
   - gnuplot
-  openEuler: *id079
+  openeuler: *id079
 gnuplot-iostream:
   debian:
   - libgnuplot-iostream-dev
@@ -3112,7 +3112,7 @@ google-mock:
   - gmock-devel
   ubuntu:
   - google-mock
-  openEuler: *id080
+  openeuler: *id080
 gpac:
   arch:
   - gpac
@@ -3149,7 +3149,7 @@ gperf:
   - gperf
   ubuntu:
   - gperf
-  openEuler: *id081
+  openeuler: *id081
 gperftools:
   arch:
   - gperftools
@@ -3166,7 +3166,7 @@ gperftools:
   ubuntu:
   - google-perftools
   - libgoogle-perftools-dev
-  openEuler: *id082
+  openeuler: *id082
 gpg-agent:
   arch:
   - gnupg
@@ -3189,7 +3189,7 @@ gphoto2:
   - gphoto2
   ubuntu:
   - gphoto2
-  openEuler: *id083
+  openeuler: *id083
 gprbuild:
   debian:
   - gprbuild
@@ -3210,7 +3210,7 @@ gpsd:
   - gpsd
   ubuntu:
   - gpsd
-  openEuler: *id084
+  openeuler: *id084
 gradle:
   arch: &id085
   - gradle
@@ -3225,7 +3225,7 @@ gradle:
   - gradle
   ubuntu:
   - gradle
-  openEuler: *id085
+  openeuler: *id085
 graphicsmagick:
   arch:
   - graphicsmagick
@@ -3247,7 +3247,7 @@ graphicsmagick:
   ubuntu:
   - libgraphicsmagick++1-dev
   - graphicsmagick-libmagick-dev-compat
-  openEuler: *id086
+  openeuler: *id086
 graphviz:
   alpine:
   - graphviz
@@ -3275,7 +3275,7 @@ graphviz:
   - graphviz
   ubuntu:
   - graphviz
-  openEuler: *id087
+  openeuler: *id087
 graphviz-dev:
   arch:
   - graphviz
@@ -3289,7 +3289,7 @@ graphviz-dev:
   - graphviz-devel
   ubuntu:
   - libgraphviz-dev
-  openEuler: *id088
+  openeuler: *id088
 gringo:
   debian:
   - gringo
@@ -3342,7 +3342,7 @@ gstreamer1.0:
   - gstreamer1.0-tools
   - libgstreamer1.0-0
   - gir1.2-gstreamer-1.0
-  openEuler: *id089
+  openeuler: *id089
 gstreamer1.0-alsa:
   debian:
   - gstreamer1.0-alsa
@@ -3356,7 +3356,7 @@ gstreamer1.0-alsa:
   - gstreamer1-plugins-base
   ubuntu:
   - gstreamer1.0-alsa
-  openEuler: *id090
+  openeuler: *id090
 gstreamer1.0-gl:
   arch:
   - gst-plugins-base
@@ -3373,7 +3373,7 @@ gstreamer1.0-gl:
   ubuntu:
     '*':
     - gstreamer1.0-gl
-  openEuler: *id091
+  openeuler: *id091
 gstreamer1.0-libav:
   arch:
   - gst-libav
@@ -3391,7 +3391,7 @@ gstreamer1.0-libav:
   - gstreamer-plugins-libav
   ubuntu:
   - gstreamer1.0-libav
-  openEuler: *id092
+  openeuler: *id092
 gstreamer1.0-plugins-bad:
   arch:
   - gst-plugins-bad
@@ -3411,7 +3411,7 @@ gstreamer1.0-plugins-bad:
   - gstreamer1-plugins-bad-free
   ubuntu:
   - gstreamer1.0-plugins-bad
-  openEuler: *id093
+  openeuler: *id093
 gstreamer1.0-plugins-base:
   arch:
   - gst-plugins-base
@@ -3435,7 +3435,7 @@ gstreamer1.0-plugins-base:
   - gstreamer1.0-plugins-base
   - libgstreamer-plugins-base1.0-0
   - gir1.2-gst-plugins-base-1.0
-  openEuler: *id094
+  openeuler: *id094
 gstreamer1.0-plugins-good:
   arch:
   - gst-plugins-good
@@ -3456,7 +3456,7 @@ gstreamer1.0-plugins-good:
   ubuntu:
   - gstreamer1.0-plugins-good
   - libgstreamer-plugins-good1.0-0
-  openEuler: *id095
+  openeuler: *id095
 gstreamer1.0-plugins-ugly:
   arch:
   - gst-plugins-ugly
@@ -3490,7 +3490,7 @@ gstreamer1.0-tools:
   - gstreamer-utils
   ubuntu:
   - gstreamer1.0-tools
-  openEuler: *id096
+  openeuler: *id096
 gstreamer1.0-x:
   arch:
   - gstreamer
@@ -3504,7 +3504,7 @@ gstreamer1.0-x:
   - gstreamer
   ubuntu:
   - gstreamer1.0-x
-  openEuler: *id097
+  openeuler: *id097
 gtest:
   alpine:
   - gtest-dev
@@ -3533,7 +3533,7 @@ gtest:
   - gtest
   ubuntu:
   - libgtest-dev
-  openEuler: *id098
+  openeuler: *id098
 gtk-doc-tools:
   arch:
   - gtk-doc
@@ -3547,7 +3547,7 @@ gtk-doc-tools:
   - gtk-doc
   ubuntu:
   - gtk-doc-tools
-  openEuler: *id099
+  openeuler: *id099
 gtk2:
   arch:
   - gtk2
@@ -3575,7 +3575,7 @@ gtk2:
       - gtk+2
   ubuntu:
   - libgtk2.0-dev
-  openEuler: *id100
+  openeuler: *id100
 gtk3:
   arch:
   - gtk3
@@ -3603,7 +3603,7 @@ gtk3:
       - gtk+3
   ubuntu:
   - libgtk-3-dev
-  openEuler: *id101
+  openeuler: *id101
 gurumdds-2.6:
   ubuntu:
     bionic:
@@ -3639,7 +3639,7 @@ gv:
   - gv
   ubuntu:
   - gv
-  openEuler: *id102
+  openeuler: *id102
 gz-citadel:
   ubuntu:
     focal:
@@ -3868,7 +3868,7 @@ haproxy:
   - haproxy
   ubuntu:
   - haproxy
-  openEuler: *id103
+  openeuler: *id103
 hddtemp:
   arch:
   - hddtemp
@@ -3898,7 +3898,7 @@ hddtemp:
     - hddtemp
     focal:
     - hddtemp
-  openEuler: *id104
+  openeuler: *id104
 hdf5:
   arch:
   - hdf5
@@ -3916,7 +3916,7 @@ hdf5:
   - hdf5@meta-oe
   ubuntu:
   - libhdf5-dev
-  openEuler: *id105
+  openeuler: *id105
 hdf5-tools:
   arch:
   - hdf5
@@ -3934,7 +3934,7 @@ hdf5-tools:
   - hdf5
   ubuntu:
   - hdf5-tools
-  openEuler: *id106
+  openeuler: *id106
 hostapd:
   arch:
   - hostapd
@@ -3963,7 +3963,7 @@ hostname:
   - hostname
   ubuntu:
   - hostname
-  openEuler: *id107
+  openeuler: *id107
 htop:
   arch:
   - htop
@@ -3977,7 +3977,7 @@ htop:
   - htop
   ubuntu:
   - htop
-  openEuler: *id108
+  openeuler: *id108
 hugin-tools:
   arch:
   - hugin
@@ -4008,7 +4008,7 @@ i2c-tools:
   - i2c-tools
   ubuntu:
   - i2c-tools
-  openEuler: *id109
+  openeuler: *id109
 ifstat:
   debian:
   - ifstat
@@ -4390,7 +4390,7 @@ imagemagick:
   - imagemagick
   ubuntu:
   - imagemagick
-  openEuler: *id110
+  openeuler: *id110
 intel-opencl-icd:
   arch:
   - intel-compute-runtime
@@ -4419,7 +4419,7 @@ intltool:
   - intltool
   ubuntu:
   - intltool
-  openEuler: *id111
+  openeuler: *id111
 inxi:
   arch:
   - inxi
@@ -4469,7 +4469,7 @@ ipmitool:
   - ipmitool@meta-oe
   ubuntu:
   - ipmitool
-  openEuler: *id112
+  openeuler: *id112
 iproute2:
   arch:
   - iproute2
@@ -4487,7 +4487,7 @@ iproute2:
   - iproute2
   ubuntu:
   - iproute2
-  openEuler: *id113
+  openeuler: *id113
 iputils-ping:
   arch:
   - iputils
@@ -4499,7 +4499,7 @@ iputils-ping:
   - unixtools.ping
   ubuntu:
   - iputils-ping
-  openEuler: *id114
+  openeuler: *id114
 iwyu:
   debian:
   - iwyu
@@ -4520,7 +4520,7 @@ jack:
   - jack2
   ubuntu:
   - libjack-jackd2-dev
-  openEuler: *id115
+  openeuler: *id115
 jasper:
   arch:
   - jasper
@@ -4545,7 +4545,7 @@ jasper:
     slackpkg:
       packages:
       - jasper
-  openEuler: *id116
+  openeuler: *id116
 java:
   alpine:
   - openjdk8-jre
@@ -4604,7 +4604,7 @@ jq:
   - jq
   ubuntu:
   - jq
-  openEuler: *id117
+  openeuler: *id117
 julius-voxforge:
   fedora:
   - julius-voxforge
@@ -4621,7 +4621,7 @@ jython:
   - jython
   ubuntu:
   - jython
-  openEuler: *id118
+  openeuler: *id118
 kakasi:
   arch:
   - kakasi
@@ -4679,13 +4679,13 @@ language-pack-de:
   - filesystem
   ubuntu:
   - language-pack-de
-  openEuler: *id119
+  openeuler: *id119
 language-pack-en:
   fedora: &id120
   - filesystem
   ubuntu:
   - language-pack-en
-  openEuler: *id120
+  openeuler: *id120
 lcov:
   arch:
   - lcov
@@ -4724,7 +4724,7 @@ lensfun:
   - lensfun
   ubuntu:
   - liblensfun1
-  openEuler: *id121
+  openeuler: *id121
 lensfun-dev:
   alpine:
   - lensfun-dev
@@ -4744,7 +4744,7 @@ lensfun-dev:
   - lensfun-devel
   ubuntu:
   - liblensfun-dev
-  openEuler: *id122
+  openeuler: *id122
 leveldb:
   arch:
   - leveldb
@@ -4762,7 +4762,7 @@ leveldb:
   - leveldb-devel
   ubuntu:
   - libleveldb-dev
-  openEuler: *id123
+  openeuler: *id123
 lib32asound2:
   debian:
   - lib32asound2
@@ -4843,7 +4843,7 @@ libao-dev:
   - libao-devel
   ubuntu:
   - libao-dev
-  openEuler: *id124
+  openeuler: *id124
 libapache2-mod-python:
   debian:
   - libapache2-mod-python
@@ -4888,7 +4888,7 @@ libasound2-dev:
   - alsa-lib@openembedded-core
   ubuntu:
   - libasound2-dev
-  openEuler: *id125
+  openeuler: *id125
 libatomic:
   alpine:
   - libatomic
@@ -4911,7 +4911,7 @@ libatomic:
   - libatomic
   ubuntu:
   - libatomic1
-  openEuler: *id126
+  openeuler: *id126
 libav:
   arch:
   - ffmpeg
@@ -4924,7 +4924,7 @@ libav:
   - libav
   ubuntu:
     '*': null
-  openEuler: *id127
+  openeuler: *id127
 libavahi-client-dev:
   arch:
   - avahi
@@ -4940,7 +4940,7 @@ libavahi-client-dev:
   - avahi-devel
   ubuntu:
   - libavahi-client-dev
-  openEuler: *id128
+  openeuler: *id128
 libavahi-core-dev:
   arch:
   - avahi
@@ -4956,7 +4956,7 @@ libavahi-core-dev:
   - avahi-devel
   ubuntu:
   - libavahi-core-dev
-  openEuler: *id129
+  openeuler: *id129
 libavdevice-dev:
   arch:
   - ffmpeg
@@ -5016,7 +5016,7 @@ libbison-dev:
   - bison
   rhel: &id130
   - bison-devel
-  openEuler: *id130
+  openeuler: *id130
 libblas-dev:
   arch:
   - cblas
@@ -5051,7 +5051,7 @@ libblosc-dev:
   - blosc-devel
   ubuntu:
   - libblosc-dev
-  openEuler: *id131
+  openeuler: *id131
 libbluetooth:
   arch:
   - bluez
@@ -5067,7 +5067,7 @@ libbluetooth:
   - bluez-libs
   ubuntu:
   - libbluetooth3
-  openEuler: *id132
+  openeuler: *id132
 libbluetooth-dev:
   arch:
   - bluez
@@ -5112,7 +5112,7 @@ libboost-atomic:
     - libboost-atomic1.74.0
     noble:
     - libboost-atomic1.83.0
-  openEuler: *id133
+  openeuler: *id133
 libboost-atomic-dev:
   arch:
   - boost
@@ -5132,7 +5132,7 @@ libboost-atomic-dev:
   - boost-devel
   ubuntu:
   - libboost-atomic-dev
-  openEuler: *id134
+  openeuler: *id134
 libboost-chrono:
   arch:
   - boost-libs
@@ -5162,7 +5162,7 @@ libboost-chrono:
     - libboost-chrono1.74.0
     noble:
     - libboost-chrono1.83.0
-  openEuler: *id135
+  openeuler: *id135
 libboost-chrono-dev:
   arch:
   - boost
@@ -5182,7 +5182,7 @@ libboost-chrono-dev:
   - boost-devel
   ubuntu:
   - libboost-chrono-dev
-  openEuler: *id136
+  openeuler: *id136
 libboost-coroutine:
   alpine:
   - boost-dev
@@ -5237,7 +5237,7 @@ libboost-coroutine-dev:
   - boost-devel
   ubuntu:
   - libboost-coroutine-dev
-  openEuler: *id137
+  openeuler: *id137
 libboost-date-time:
   arch:
   - boost-libs
@@ -5269,7 +5269,7 @@ libboost-date-time:
     - libboost-date-time1.74.0
     noble:
     - libboost-date-time1.83.0
-  openEuler: *id138
+  openeuler: *id138
 libboost-date-time-dev:
   arch:
   - boost
@@ -5289,7 +5289,7 @@ libboost-date-time-dev:
   - boost-devel
   ubuntu:
   - libboost-date-time-dev
-  openEuler: *id139
+  openeuler: *id139
 libboost-dev:
   arch:
   - boost
@@ -5309,7 +5309,7 @@ libboost-dev:
   - boost-devel
   ubuntu:
   - libboost-dev
-  openEuler: *id140
+  openeuler: *id140
 libboost-filesystem:
   arch:
   - boost-libs
@@ -5341,7 +5341,7 @@ libboost-filesystem:
     - libboost-filesystem1.74.0
     noble:
     - libboost-filesystem1.83.0
-  openEuler: *id141
+  openeuler: *id141
 libboost-filesystem-dev:
   arch:
   - boost
@@ -5361,7 +5361,7 @@ libboost-filesystem-dev:
   - boost-devel
   ubuntu:
   - libboost-filesystem-dev
-  openEuler: *id142
+  openeuler: *id142
 libboost-iostreams:
   arch:
   - boost-libs
@@ -5391,7 +5391,7 @@ libboost-iostreams:
     - libboost-iostreams1.74.0
     noble:
     - libboost-iostreams1.83.0
-  openEuler: *id143
+  openeuler: *id143
 libboost-iostreams-dev:
   arch:
   - boost
@@ -5411,7 +5411,7 @@ libboost-iostreams-dev:
   - boost-devel
   ubuntu:
   - libboost-iostreams-dev
-  openEuler: *id144
+  openeuler: *id144
 libboost-math:
   arch:
   - boost-libs
@@ -5439,7 +5439,7 @@ libboost-math:
     - libboost-math1.74.0
     noble:
     - libboost-math1.83.0
-  openEuler: *id145
+  openeuler: *id145
 libboost-math-dev:
   arch:
   - boost
@@ -5457,7 +5457,7 @@ libboost-math-dev:
   - boost-devel
   ubuntu:
   - libboost-math-dev
-  openEuler: *id146
+  openeuler: *id146
 libboost-numpy-dev:
   arch:
   - boost
@@ -5476,7 +5476,7 @@ libboost-numpy-dev:
   - boost-devel
   ubuntu:
   - libboost-numpy-dev
-  openEuler: *id147
+  openeuler: *id147
 libboost-program-options:
   arch:
   - boost-libs
@@ -5506,7 +5506,7 @@ libboost-program-options:
     - libboost-program-options1.74.0
     noble:
     - libboost-program-options1.83.0
-  openEuler: *id148
+  openeuler: *id148
 libboost-program-options-dev:
   arch:
   - boost
@@ -5526,7 +5526,7 @@ libboost-program-options-dev:
   - boost-devel
   ubuntu:
   - libboost-program-options-dev
-  openEuler: *id149
+  openeuler: *id149
 libboost-python:
   alpine:
   - boost-python2
@@ -5622,7 +5622,7 @@ libboost-random:
     - libboost-random1.74.0
     noble:
     - libboost-random1.83.0
-  openEuler: *id150
+  openeuler: *id150
 libboost-random-dev:
   arch:
   - boost
@@ -5642,7 +5642,7 @@ libboost-random-dev:
   - boost-devel
   ubuntu:
   - libboost-random-dev
-  openEuler: *id151
+  openeuler: *id151
 libboost-regex:
   arch:
   - boost-libs
@@ -5672,7 +5672,7 @@ libboost-regex:
     - libboost-regex1.74.0
     noble:
     - libboost-regex1.83.0
-  openEuler: *id152
+  openeuler: *id152
 libboost-regex-dev:
   arch:
   - boost
@@ -5692,7 +5692,7 @@ libboost-regex-dev:
   - boost-devel
   ubuntu:
   - libboost-regex-dev
-  openEuler: *id153
+  openeuler: *id153
 libboost-serialization:
   arch:
   - boost-libs
@@ -5722,7 +5722,7 @@ libboost-serialization:
     - libboost-serialization1.74.0
     noble:
     - libboost-serialization1.83.0
-  openEuler: *id154
+  openeuler: *id154
 libboost-serialization-dev:
   arch:
   - boost
@@ -5742,7 +5742,7 @@ libboost-serialization-dev:
   - boost-devel
   ubuntu:
   - libboost-serialization-dev
-  openEuler: *id155
+  openeuler: *id155
 libboost-system:
   arch:
   - boost-libs
@@ -5772,7 +5772,7 @@ libboost-system:
     - libboost-system1.74.0
     noble:
     - libboost-system1.83.0
-  openEuler: *id156
+  openeuler: *id156
 libboost-system-dev:
   arch:
   - boost
@@ -5792,7 +5792,7 @@ libboost-system-dev:
   - boost-devel
   ubuntu:
   - libboost-system-dev
-  openEuler: *id157
+  openeuler: *id157
 libboost-thread:
   arch:
   - boost-libs
@@ -5824,7 +5824,7 @@ libboost-thread:
     - libboost-thread1.74.0
     noble:
     - libboost-thread1.83.0
-  openEuler: *id158
+  openeuler: *id158
 libboost-thread-dev:
   arch:
   - boost
@@ -5844,7 +5844,7 @@ libboost-thread-dev:
   - boost-devel
   ubuntu:
   - libboost-thread-dev
-  openEuler: *id159
+  openeuler: *id159
 libboost-timer:
   arch:
   - boost-libs
@@ -5872,7 +5872,7 @@ libboost-timer:
     - libboost-timer1.74.0
     noble:
     - libboost-timer1.83.0
-  openEuler: *id160
+  openeuler: *id160
 libboost-timer-dev:
   arch:
   - boost
@@ -5890,7 +5890,7 @@ libboost-timer-dev:
   - boost-devel
   ubuntu:
   - libboost-timer-dev
-  openEuler: *id161
+  openeuler: *id161
 libbsd-dev:
   alpine:
   - libbsd
@@ -5910,7 +5910,7 @@ libbsd-dev:
       - libbsd
   ubuntu:
   - libbsd-dev
-  openEuler: *id162
+  openeuler: *id162
 libcairo2-dev:
   arch:
   - cairo
@@ -5930,7 +5930,7 @@ libcairo2-dev:
   - cairo-devel
   ubuntu:
   - libcairo2-dev
-  openEuler: *id163
+  openeuler: *id163
 libcap-dev:
   arch:
   - libcap
@@ -5950,7 +5950,7 @@ libcap-dev:
   - libcap-devel
   ubuntu:
   - libcap-dev
-  openEuler: *id164
+  openeuler: *id164
 libcap-ng-dev:
   arch:
   - libcap-ng
@@ -5964,7 +5964,7 @@ libcap-ng-dev:
   - libcap-ng-devel
   ubuntu:
   - libcap-ng-dev
-  openEuler: *id165
+  openeuler: *id165
 libcap-ng0:
   arch: &id166
   - libcap-ng
@@ -5976,7 +5976,7 @@ libcap-ng0:
   - libcap_ng
   ubuntu:
   - libcap-ng0
-  openEuler: *id166
+  openeuler: *id166
 libcap2:
   arch: &id167
   - libcap
@@ -5986,7 +5986,7 @@ libcap2:
   - libcap
   ubuntu:
   - libcap2
-  openEuler: *id167
+  openeuler: *id167
 libcap2-bin:
   arch:
   - libcap
@@ -6000,7 +6000,7 @@ libcap2-bin:
   - libcap
   ubuntu:
   - libcap2-bin
-  openEuler: *id168
+  openeuler: *id168
 libccd-dev:
   debian:
   - libccd-dev
@@ -6016,7 +6016,7 @@ libccd-dev:
   - libccd-devel
   ubuntu:
   - libccd-dev
-  openEuler: *id169
+  openeuler: *id169
 libccid:
   alpine:
   - ccid
@@ -6069,7 +6069,7 @@ libcereal-dev:
   - dev-libs/cereal
   ubuntu:
   - libcereal-dev
-  openEuler: *id170
+  openeuler: *id170
 libceres-dev:
   arch:
   - ceres-solver
@@ -6107,7 +6107,7 @@ libcgroup-dev:
   - libcgroup@openembedded-core
   ubuntu:
   - libcgroup-dev
-  openEuler: *id171
+  openeuler: *id171
 libclang-dev:
   arch:
   - clang
@@ -6123,7 +6123,7 @@ libclang-dev:
   - clang-devel
   ubuntu:
   - libclang-dev
-  openEuler: *id172
+  openeuler: *id172
 libcoin60-dev:
   arch:
   - coin
@@ -6166,7 +6166,7 @@ libconfig++-dev:
   - libconfig-devel
   ubuntu:
   - libconfig++-dev
-  openEuler: *id173
+  openeuler: *id173
 libconfig-dev:
   arch:
   - libconfig
@@ -6182,7 +6182,7 @@ libconfig-dev:
   - libconfig-devel
   ubuntu:
   - libconfig-dev
-  openEuler: *id174
+  openeuler: *id174
 libconsole-bridge-dev:
   alpine:
   - console_bridge-dev
@@ -6206,7 +6206,7 @@ libconsole-bridge-dev:
   - console_bridge
   ubuntu:
   - libconsole-bridge-dev
-  openEuler: *id175
+  openeuler: *id175
 libcos4-dev:
   debian:
   - libcos4-dev
@@ -6259,7 +6259,7 @@ libcunit-dev:
   - CUnit-devel
   ubuntu:
   - libcunit1-dev
-  openEuler: *id176
+  openeuler: *id176
 libcurl:
   alpine:
   - libcurl
@@ -6279,7 +6279,7 @@ libcurl:
   - libcurl
   ubuntu:
   - libcurl4
-  openEuler: *id177
+  openeuler: *id177
 libcurl-dev:
   alpine:
   - curl-dev
@@ -6299,7 +6299,7 @@ libcurl-dev:
   - libcurl-devel
   ubuntu:
   - libcurl4-openssl-dev
-  openEuler: *id178
+  openeuler: *id178
 libdbus-dev:
   arch:
   - dbus
@@ -6315,7 +6315,7 @@ libdbus-dev:
   - dbus-devel
   ubuntu:
   - libdbus-1-dev
-  openEuler: *id179
+  openeuler: *id179
 libdc1394-dev:
   arch:
     pacman:
@@ -6387,7 +6387,7 @@ libdmtx-dev:
   - libdmtx
   ubuntu:
   - libdmtx-dev
-  openEuler: *id180
+  openeuler: *id180
 libdpkg-dev:
   arch:
   - dpkg
@@ -6401,7 +6401,7 @@ libdpkg-dev:
   - dpkg-devel
   ubuntu:
   - libdpkg-dev
-  openEuler: *id181
+  openeuler: *id181
 libdraco-dev:
   arch:
   - draco
@@ -6434,7 +6434,7 @@ libdrm-dev:
   - libdrm
   ubuntu:
   - libdrm-dev
-  openEuler: *id182
+  openeuler: *id182
 libdw-dev:
   arch:
   - libelf
@@ -6458,7 +6458,7 @@ libdw-dev:
   - elfutils-devel
   ubuntu:
   - libdw-dev
-  openEuler: *id183
+  openeuler: *id183
 libdxflib-dev:
   debian:
   - libdxflib-dev
@@ -6485,7 +6485,7 @@ libedit:
   - libedit
   ubuntu:
   - libedit2
-  openEuler: *id184
+  openeuler: *id184
 libedit-dev:
   arch:
   - libedit
@@ -6503,7 +6503,7 @@ libedit-dev:
   - libedit-devel
   ubuntu:
   - libedit-dev
-  openEuler: *id185
+  openeuler: *id185
 libepoxy-dev:
   alpine:
   - libepoxy-dev
@@ -6521,7 +6521,7 @@ libepoxy-dev:
   - libepoxy-devel
   ubuntu:
   - libepoxy-dev
-  openEuler: *id186
+  openeuler: *id186
 libesd0-dev:
   debian:
   - libesd0-dev
@@ -6583,7 +6583,7 @@ libev-dev:
   - libev
   ubuntu:
   - libev-dev
-  openEuler: *id187
+  openeuler: *id187
 libevdev-dev:
   arch:
   - libevdev
@@ -6597,7 +6597,7 @@ libevdev-dev:
   - libevdev
   ubuntu:
   - libevdev-dev
-  openEuler: *id188
+  openeuler: *id188
 libevent-dev:
   alpine:
   - libevent-dev
@@ -6615,7 +6615,7 @@ libevent-dev:
   - libevent-devel
   ubuntu:
   - libevent-dev
-  openEuler: *id189
+  openeuler: *id189
 libexif:
   alpine:
   - libexif
@@ -6639,7 +6639,7 @@ libexif:
   - libexif
   ubuntu:
   - libexif12
-  openEuler: *id190
+  openeuler: *id190
 libexif-dev:
   alpine:
   - libexif-dev
@@ -6663,7 +6663,7 @@ libexif-dev:
   - libexif-devel
   ubuntu:
   - libexif-dev
-  openEuler: *id191
+  openeuler: *id191
 libexiv2-dev:
   alpine:
   - exiv2-dev
@@ -6687,7 +6687,7 @@ libexiv2-dev:
   - exiv2-devel
   ubuntu:
   - libexiv2-dev
-  openEuler: *id192
+  openeuler: *id192
 libexpat1-dev:
   arch:
   - expat
@@ -6701,7 +6701,7 @@ libexpat1-dev:
   - expat@openembedded-core
   ubuntu:
   - libexpat1-dev
-  openEuler: *id193
+  openeuler: *id193
 libext2fs-dev:
   alpine:
   - e2fsprogs-dev
@@ -6719,7 +6719,7 @@ libext2fs-dev:
   - e2fsprogs-devel
   ubuntu:
   - libext2fs-dev
-  openEuler: *id194
+  openeuler: *id194
 libfcl:
   debian:
     '*':
@@ -6743,7 +6743,7 @@ libfcl:
     - libfcl0.7
     focal:
     - libfcl0.5
-  openEuler: *id195
+  openeuler: *id195
 libfcl-dev:
   debian:
   - libfcl-dev
@@ -6777,7 +6777,7 @@ libffi-dev:
   - libffi@openembedded-core
   ubuntu:
   - libffi-dev
-  openEuler: *id196
+  openeuler: *id196
 libfftw3:
   arch:
   - fftw
@@ -6797,7 +6797,7 @@ libfftw3:
   ubuntu:
   - libfftw3-3
   - libfftw3-dev
-  openEuler: *id197
+  openeuler: *id197
 libfl-dev:
   debian:
   - libfl-dev
@@ -6830,7 +6830,7 @@ libflann:
   ubuntu:
     '*':
     - libflann1.9
-  openEuler: *id198
+  openeuler: *id198
 libflann-dev:
   arch:
   - flann
@@ -6850,7 +6850,7 @@ libflann-dev:
   - flann-devel
   ubuntu:
   - libflann-dev
-  openEuler: *id199
+  openeuler: *id199
 libflatbuffers-dev:
   alpine:
   - flatbuffers-dev
@@ -6914,7 +6914,7 @@ libfltk-dev:
   - fltk
   ubuntu:
   - libfltk1.3-dev
-  openEuler: *id200
+  openeuler: *id200
 libfontconfig1-dev:
   arch:
   - fontconfig
@@ -6926,7 +6926,7 @@ libfontconfig1-dev:
   - media-libs/fontconfig
   ubuntu:
   - libfontconfig1-dev
-  openEuler: *id201
+  openeuler: *id201
 libfreeimage:
   alpine:
   - freeimage
@@ -6942,7 +6942,7 @@ libfreeimage:
   - freeimage
   ubuntu:
   - libfreeimage3
-  openEuler: *id202
+  openeuler: *id202
 libfreeimage-dev:
   alpine:
   - freeimage-dev
@@ -6960,7 +6960,7 @@ libfreeimage-dev:
   - freeimage-devel
   ubuntu:
   - libfreeimage-dev
-  openEuler: *id203
+  openeuler: *id203
 libfreenect-dev:
   debian:
   - libfreenect-dev
@@ -7005,7 +7005,7 @@ libfreetype-dev:
     - libfreetype-dev
     bionic:
     - libfreetype6-dev
-  openEuler: *id204
+  openeuler: *id204
 libfreetype6:
   alpine:
   - freetype
@@ -7027,7 +7027,7 @@ libfreetype6:
   - freetype
   ubuntu:
   - libfreetype6
-  openEuler: *id205
+  openeuler: *id205
 libfreetype6-dev:
   alpine:
   - freetype-dev
@@ -7047,7 +7047,7 @@ libfreetype6-dev:
   - freetype-devel
   ubuntu:
   - libfreetype6-dev
-  openEuler: *id206
+  openeuler: *id206
 libftdi-dev:
   arch:
   - libftdi
@@ -7110,7 +7110,7 @@ libftgl-dev:
   - ftgl
   ubuntu:
   - libftgl-dev
-  openEuler: *id207
+  openeuler: *id207
 libfyaml-dev:
   alpine:
   - libfyaml-dev
@@ -7207,7 +7207,7 @@ libgconf2:
   - gnome2.GConf
   ubuntu:
   - libgconf-2-4
-  openEuler: *id208
+  openeuler: *id208
 libgdal-dev:
   arch:
   - gdal
@@ -7252,7 +7252,7 @@ libgeos++-dev:
   - geos-devel
   ubuntu:
   - libgeos++-dev
-  openEuler: *id209
+  openeuler: *id209
 libgeotiff-dev:
   arch:
   - libgeotiff
@@ -7266,7 +7266,7 @@ libgeotiff-dev:
   - libgeotiff
   ubuntu:
   - libgeotiff-dev
-  openEuler: *id210
+  openeuler: *id210
 libgflags-dev:
   arch:
   - gflags
@@ -7286,7 +7286,7 @@ libgflags-dev:
   - gflags-devel
   ubuntu:
   - libgflags-dev
-  openEuler: *id211
+  openeuler: *id211
 libgfortran3:
   arch:
   - gcc-libs
@@ -7298,7 +7298,7 @@ libgfortran3:
   - sys-devel/gcc[fortran]
   ubuntu:
   - libgfortran3
-  openEuler: *id212
+  openeuler: *id212
 libgif-dev:
   arch:
   - giflib
@@ -7312,7 +7312,7 @@ libgif-dev:
   - giflib
   ubuntu:
   - libgif-dev
-  openEuler: *id213
+  openeuler: *id213
 libglew-dev:
   arch:
   - glew
@@ -7332,7 +7332,7 @@ libglew-dev:
   - glew-devel
   ubuntu:
   - libglew-dev
-  openEuler: *id214
+  openeuler: *id214
 libglfw3-dev:
   arch:
   - glfw
@@ -7366,7 +7366,7 @@ libglib-dev:
   - glib-2.0@openembedded-core
   ubuntu:
   - libglib2.0-dev
-  openEuler: *id215
+  openeuler: *id215
 libglm-dev:
   arch:
   - glm
@@ -7382,7 +7382,7 @@ libglm-dev:
   - glm-devel
   ubuntu:
   - libglm-dev
-  openEuler: *id216
+  openeuler: *id216
 libglui-dev:
   debian:
   - libglui-dev
@@ -7424,7 +7424,7 @@ libgmock-dev:
     '*':
     - libgmock-dev
     bionic: null
-  openEuler: *id217
+  openeuler: *id217
 libgmp:
   arch:
   - gmp
@@ -7442,7 +7442,7 @@ libgmp:
       - gpgme
   ubuntu:
   - libgmp-dev
-  openEuler: *id218
+  openeuler: *id218
 libgnutls28-dev:
   alpine:
   - gnutls-dev
@@ -7458,7 +7458,7 @@ libgnutls28-dev:
   - gnutls-devel
   ubuntu:
   - libgnutls28-dev
-  openEuler: *id219
+  openeuler: *id219
 libgomp1:
   arch:
   - gcc-libs
@@ -7487,7 +7487,7 @@ libgoogle-glog-dev:
   - glog-devel
   ubuntu:
   - libgoogle-glog-dev
-  openEuler: *id220
+  openeuler: *id220
 libgpgme-dev:
   alpine:
   - gpgme-dev
@@ -7512,7 +7512,7 @@ libgpgme-dev:
   ubuntu:
     '*':
     - libgpgme-dev
-  openEuler: *id221
+  openeuler: *id221
 libgphoto-dev:
   arch:
   - libgphoto2
@@ -7531,7 +7531,7 @@ libgphoto-dev:
   ubuntu:
     '*':
     - libgphoto2-dev
-  openEuler: *id222
+  openeuler: *id222
 libgpiod-dev:
   arch:
   - libgpiod
@@ -7570,7 +7570,7 @@ libgps:
   - gpsd-devel
   ubuntu:
   - libgps-dev
-  openEuler: *id223
+  openeuler: *id223
 libgrpc:
   alpine:
   - grpc-dev
@@ -7624,7 +7624,7 @@ libgsl:
   ubuntu:
     '*':
     - libgsl-dev
-  openEuler: *id224
+  openeuler: *id224
 libgstreamer-plugins-bad1.0-dev:
   arch:
   - gst-plugins-bad
@@ -7638,7 +7638,7 @@ libgstreamer-plugins-bad1.0-dev:
   - gst_all_1.gst-plugins-bad
   ubuntu:
   - libgstreamer-plugins-bad1.0-dev
-  openEuler: *id225
+  openeuler: *id225
 libgstreamer-plugins-base0.10-0:
   debian:
     wheezy:
@@ -7674,7 +7674,7 @@ libgstreamer-plugins-base1.0-dev:
   - gstreamer1-plugins-base-devel
   ubuntu:
   - libgstreamer-plugins-base1.0-dev
-  openEuler: *id226
+  openeuler: *id226
 libgstreamer0.10-0:
   debian:
     wheezy:
@@ -7710,7 +7710,7 @@ libgstreamer1.0-dev:
   - gstreamer1-devel
   ubuntu:
   - libgstreamer1.0-dev
-  openEuler: *id227
+  openeuler: *id227
 libgstrtspserver-1.0-0:
   arch:
   - gst-rtsp-server
@@ -7744,7 +7744,7 @@ libgtkmm:
   - dev-cpp/gtkmm
   ubuntu:
   - libgtkmm-2.4-dev
-  openEuler: *id228
+  openeuler: *id228
 libgtkmm3.0-dev:
   alpine:
   - gtkmm3-dev
@@ -7760,7 +7760,7 @@ libgtkmm3.0-dev:
   - gtkmm30-devel
   ubuntu:
   - libgtkmm-3.0-dev
-  openEuler: *id229
+  openeuler: *id229
 libgts:
   arch:
   - gts
@@ -7800,7 +7800,7 @@ libhdf5-dev:
   - hdf5-devel
   ubuntu:
   - libhdf5-dev
-  openEuler: *id230
+  openeuler: *id230
 libhidapi-dev:
   arch:
   - hidapi
@@ -7845,7 +7845,7 @@ libicu-dev:
   - icu
   ubuntu:
   - libicu-dev
-  openEuler: *id231
+  openeuler: *id231
 libignition-common3:
   debian:
     buster:
@@ -8047,7 +8047,7 @@ libirrlicht-dev:
   - irrlicht
   ubuntu:
   - libirrlicht-dev
-  openEuler: *id232
+  openeuler: *id232
 libiw-dev:
   arch:
   - wireless_tools
@@ -8061,7 +8061,7 @@ libiw-dev:
   - wirelesstools
   ubuntu:
   - libiw-dev
-  openEuler: *id233
+  openeuler: *id233
 libjack-dev:
   arch:
   - jack2
@@ -8073,7 +8073,7 @@ libjack-dev:
   - jack-audio-connection-kit-devel
   ubuntu:
   - libjack-dev
-  openEuler: *id234
+  openeuler: *id234
 libjackson-json-java:
   debian:
   - libjackson-json-java
@@ -8096,7 +8096,7 @@ libjansson-dev:
   - jansson-devel
   ubuntu:
   - libjansson-dev
-  openEuler: *id235
+  openeuler: *id235
 libjaxp1.3-java:
   debian:
   - libjaxp1.3-java
@@ -8130,7 +8130,7 @@ libjpeg:
   - libjpeg-turbo
   ubuntu:
   - libjpeg-dev
-  openEuler: *id236
+  openeuler: *id236
 libjson-glib:
   arch:
   - json-glib
@@ -8144,7 +8144,7 @@ libjson-glib:
   - json-glib
   ubuntu:
   - libjson-glib-dev
-  openEuler: *id237
+  openeuler: *id237
 libjson-java:
   debian:
   - libjson-java
@@ -8167,7 +8167,7 @@ libjson0-dev:
   - json-c-devel
   ubuntu:
   - libjson0-dev
-  openEuler: *id238
+  openeuler: *id238
 libjsoncpp:
   arch:
   - jsoncpp
@@ -8192,7 +8192,7 @@ libjsoncpp:
     - libjsoncpp1
     focal:
     - libjsoncpp1
-  openEuler: *id239
+  openeuler: *id239
 libjsoncpp-dev:
   arch:
   - jsoncpp
@@ -8212,7 +8212,7 @@ libjsoncpp-dev:
   - jsoncpp-devel
   ubuntu:
   - libjsoncpp-dev
-  openEuler: *id240
+  openeuler: *id240
 libjsonrpccpp-client0:
   debian:
   - libjsonrpccpp-client0
@@ -8282,7 +8282,7 @@ liblapack-dev:
   - lapack-devel
   ubuntu:
   - liblapack-dev
-  openEuler: *id241
+  openeuler: *id241
 liblapacke-dev:
   arch:
   - lapacke
@@ -8292,7 +8292,7 @@ liblapacke-dev:
   - lapack-devel
   ubuntu:
   - liblapacke-dev
-  openEuler: *id242
+  openeuler: *id242
 liblcm:
   debian:
   - liblcm1
@@ -8322,7 +8322,7 @@ libleptonica-dev:
   - leptonica
   ubuntu:
   - libleptonica-dev
-  openEuler: *id243
+  openeuler: *id243
 liblinear-dev:
   debian:
   - liblinear-dev
@@ -8366,7 +8366,7 @@ liblmdb-dev:
   - lmdb-devel
   ubuntu:
   - liblmdb-dev
-  openEuler: *id244
+  openeuler: *id244
 liblttng-ctl-dev:
   debian:
   - liblttng-ctl-dev
@@ -8382,7 +8382,7 @@ liblttng-ctl-dev:
   - lttng-tools-devel
   ubuntu:
   - liblttng-ctl-dev
-  openEuler: *id245
+  openeuler: *id245
 liblttng-ust-dev:
   arch:
   - lttng-ust
@@ -8402,7 +8402,7 @@ liblttng-ust-dev:
   - lttng-ust-devel
   ubuntu:
   - liblttng-ust-dev
-  openEuler: *id246
+  openeuler: *id246
 liblz4:
   arch:
   - lz4
@@ -8441,7 +8441,7 @@ liblz4-dev:
   - lz4-devel
   ubuntu:
   - liblz4-dev
-  openEuler: *id247
+  openeuler: *id247
 liblzma-dev:
   arch:
   - xz
@@ -8453,7 +8453,7 @@ liblzma-dev:
   - xz
   ubuntu:
   - liblzma-dev
-  openEuler: *id248
+  openeuler: *id248
 libmagick:
   arch:
   - imagemagick
@@ -8467,7 +8467,7 @@ libmagick:
   - imagemagick
   ubuntu:
   - libmagick++-dev
-  openEuler: *id249
+  openeuler: *id249
 libmarble-dev:
   arch:
   - marble
@@ -8503,7 +8503,7 @@ libmicrohttpd:
   - libmicrohttpd-devel
   ubuntu:
   - libmicrohttpd-dev
-  openEuler: *id250
+  openeuler: *id250
 libmlpack-dev:
   debian:
   - libmlpack-dev
@@ -8526,7 +8526,7 @@ libmnl-dev:
   - libmnl-devel
   ubuntu:
   - libmnl-dev
-  openEuler: *id251
+  openeuler: *id251
 libmockito-java:
   debian:
   - libmockito-java
@@ -8538,7 +8538,7 @@ libmockito-java:
   - mockito
   ubuntu:
   - libmockito-java
-  openEuler: *id252
+  openeuler: *id252
 libmodbus-dev:
   debian:
   - libmodbus-dev
@@ -8572,7 +8572,7 @@ libmongoc-1.0-0:
   - mongoc
   ubuntu:
   - libmongoc-1.0-0
-  openEuler: *id253
+  openeuler: *id253
 libmongoc-dev:
   arch: &id254
   - mongo-c-driver
@@ -8582,7 +8582,7 @@ libmongoc-dev:
   - mongoc
   ubuntu:
   - libmongoc-dev
-  openEuler: *id254
+  openeuler: *id254
 libmongoclient-dev:
   debian:
   - libmongoclient-dev
@@ -8606,7 +8606,7 @@ libmotif-dev:
   - x11-libs/motif
   ubuntu:
   - libmotif-dev
-  openEuler: *id255
+  openeuler: *id255
 libmp3lame-dev:
   arch:
   - lame
@@ -8620,7 +8620,7 @@ libmp3lame-dev:
   - lame-devel
   ubuntu:
   - libmp3lame-dev
-  openEuler: *id256
+  openeuler: *id256
 libmpg123-dev:
   arch:
   - mpg123
@@ -8632,7 +8632,7 @@ libmpg123-dev:
   - mpg123
   ubuntu:
   - libmpg123-dev
-  openEuler: *id257
+  openeuler: *id257
 libmpich-dev:
   debian:
   - libmpich-dev
@@ -8644,7 +8644,7 @@ libmpich-dev:
   - mpich
   ubuntu:
   - libmpich-dev
-  openEuler: *id258
+  openeuler: *id258
 libmpich2-dev:
   debian:
   - libmpich2-dev
@@ -8703,7 +8703,7 @@ libmysqlclient-dev:
   - libmysqlclient-devel
   ubuntu:
   - libmysqlclient-dev
-  openEuler: *id259
+  openeuler: *id259
 libmysqlcppconn-dev:
   debian:
   - libmysqlcppconn-dev
@@ -8755,7 +8755,7 @@ libncurses:
   - ncurses
   ubuntu:
   - libncurses6
-  openEuler: *id260
+  openeuler: *id260
 libncurses-dev:
   arch:
   - ncurses
@@ -8777,7 +8777,7 @@ libncurses-dev:
   - ncurses-devel
   ubuntu:
   - libncurses-dev
-  openEuler: *id261
+  openeuler: *id261
 libneon27-gnutls-dev:
   debian:
   - libneon27-gnutls-dev
@@ -8809,7 +8809,7 @@ libnl-3:
   - libnl-3-200
   - libnl-genl-3-200
   - libnl-route-3-200
-  openEuler: *id262
+  openeuler: *id262
 libnl-3-dev:
   arch:
   - libnl
@@ -8829,7 +8829,7 @@ libnl-3-dev:
   - libnl-3-dev
   - libnl-genl-3-dev
   - libnl-route-3-dev
-  openEuler: *id263
+  openeuler: *id263
 libnl-dev:
   debian:
   - libnl-dev
@@ -8893,7 +8893,7 @@ libnotify:
   - libnotify
   ubuntu:
   - libnotify-dev
-  openEuler: *id264
+  openeuler: *id264
 libnss3-dev:
   arch:
   - nss
@@ -8907,7 +8907,7 @@ libnss3-dev:
   - nss
   ubuntu:
   - libnss3-dev
-  openEuler: *id265
+  openeuler: *id265
 liboctomap-dev:
   debian:
   - liboctomap-dev
@@ -8919,7 +8919,7 @@ liboctomap-dev:
   - octomap-devel
   ubuntu:
   - liboctomap-dev
-  openEuler: *id266
+  openeuler: *id266
 libogg:
   arch:
   - libogg
@@ -8945,7 +8945,7 @@ libogg:
   - libogg
   ubuntu:
   - libogg-dev
-  openEuler: *id267
+  openeuler: *id267
 libogre:
   arch:
   - ogre
@@ -9090,7 +9090,7 @@ libopenal-dev:
   - openal-soft-devel
   ubuntu:
   - libopenal-dev
-  openEuler: *id268
+  openeuler: *id268
 libopenblas-dev:
   arch:
   - openblas
@@ -9108,7 +9108,7 @@ libopenblas-dev:
   - openblas-devel
   ubuntu:
   - libopenblas-dev
-  openEuler: *id269
+  openeuler: *id269
 libopencv-contrib-dev:
   arch:
   - opencv
@@ -9179,7 +9179,7 @@ libopenexr-dev:
   - OpenEXR-devel
   ubuntu:
   - libopenexr-dev
-  openEuler: *id270
+  openeuler: *id270
 libopenni-dev:
   debian:
   - libopenni-dev
@@ -9191,7 +9191,7 @@ libopenni-dev:
   - openni-devel
   ubuntu:
   - libopenni-dev
-  openEuler: *id271
+  openeuler: *id271
 libopenni-nite-dev:
   debian:
   - libopenni-nite-dev
@@ -9329,7 +9329,7 @@ libopus-dev:
   - opus-devel
   ubuntu:
   - libopus-dev
-  openEuler: *id272
+  openeuler: *id272
 liborocos-bfl:
   debian:
     '*':
@@ -9401,7 +9401,7 @@ libosmesa6-dev:
   - media-libs/mesa[osmesa]
   ubuntu:
   - libosmesa6-dev
-  openEuler: *id273
+  openeuler: *id273
 libpaho-mqtt:
   alpine:
   - paho-mqtt-c
@@ -9489,7 +9489,7 @@ libpcap:
   - libpcap-devel
   ubuntu:
   - libpcap0.8-dev
-  openEuler: *id274
+  openeuler: *id274
 libpcl-all:
   debian:
     bookworm:
@@ -9660,7 +9660,7 @@ libpcl-all:
     - libpcl-surface1.14
     - libpcl-tracking1.14
     - libpcl-visualization1.14
-  openEuler: *id275
+  openeuler: *id275
 libpcl-all-dev:
   debian:
   - libpcl-dev
@@ -9684,7 +9684,7 @@ libpcl-all-dev:
   - pcl
   ubuntu:
   - libpcl-dev
-  openEuler: *id276
+  openeuler: *id276
 libpcl-apps:
   alpine:
   - pcl-libs
@@ -9718,7 +9718,7 @@ libpcl-apps:
     - libpcl-apps1.12
     noble:
     - libpcl-apps1.14
-  openEuler: *id277
+  openeuler: *id277
 libpcl-common:
   alpine:
   - pcl-libs
@@ -9754,7 +9754,7 @@ libpcl-common:
     - libpcl-common1.12
     noble:
     - libpcl-common1.14
-  openEuler: *id278
+  openeuler: *id278
 libpcl-features:
   alpine:
   - pcl-libs
@@ -9790,7 +9790,7 @@ libpcl-features:
     - libpcl-features1.12
     noble:
     - libpcl-features1.14
-  openEuler: *id279
+  openeuler: *id279
 libpcl-filters:
   alpine:
   - pcl-libs
@@ -9826,7 +9826,7 @@ libpcl-filters:
     - libpcl-filters1.12
     noble:
     - libpcl-filters1.14
-  openEuler: *id280
+  openeuler: *id280
 libpcl-io:
   alpine:
   - pcl-libs
@@ -9862,7 +9862,7 @@ libpcl-io:
     - libpcl-io1.12
     noble:
     - libpcl-io1.14
-  openEuler: *id281
+  openeuler: *id281
 libpcl-kdtree:
   alpine:
   - pcl-libs
@@ -9896,7 +9896,7 @@ libpcl-kdtree:
     - libpcl-kdtree1.12
     noble:
     - libpcl-kdtree1.14
-  openEuler: *id282
+  openeuler: *id282
 libpcl-keypoints:
   alpine:
   - pcl-libs
@@ -9930,7 +9930,7 @@ libpcl-keypoints:
     - libpcl-keypoints1.12
     noble:
     - libpcl-keypoints1.14
-  openEuler: *id283
+  openeuler: *id283
 libpcl-ml:
   alpine:
   - pcl-libs
@@ -9964,7 +9964,7 @@ libpcl-ml:
     - libpcl-ml1.12
     noble:
     - libpcl-ml1.14
-  openEuler: *id284
+  openeuler: *id284
 libpcl-octree:
   alpine:
   - pcl-libs
@@ -9998,7 +9998,7 @@ libpcl-octree:
     - libpcl-octree1.12
     noble:
     - libpcl-octree1.14
-  openEuler: *id285
+  openeuler: *id285
 libpcl-outofcore:
   alpine:
   - pcl-libs
@@ -10032,7 +10032,7 @@ libpcl-outofcore:
     - libpcl-outofcore1.12
     noble:
     - libpcl-outofcore1.14
-  openEuler: *id286
+  openeuler: *id286
 libpcl-people:
   alpine:
   - pcl-libs
@@ -10066,7 +10066,7 @@ libpcl-people:
     - libpcl-people1.12
     noble:
     - libpcl-people1.14
-  openEuler: *id287
+  openeuler: *id287
 libpcl-recognition:
   alpine:
   - pcl-libs
@@ -10100,7 +10100,7 @@ libpcl-recognition:
     - libpcl-recognition1.12
     noble:
     - libpcl-recognition1.14
-  openEuler: *id288
+  openeuler: *id288
 libpcl-registration:
   alpine:
   - pcl-libs
@@ -10134,7 +10134,7 @@ libpcl-registration:
     - libpcl-registration1.12
     noble:
     - libpcl-registration1.14
-  openEuler: *id289
+  openeuler: *id289
 libpcl-sample-consensus:
   alpine:
   - pcl-libs
@@ -10168,7 +10168,7 @@ libpcl-sample-consensus:
     - libpcl-sample-consensus1.12
     noble:
     - libpcl-sample-consensus1.14
-  openEuler: *id290
+  openeuler: *id290
 libpcl-search:
   alpine:
   - pcl-libs
@@ -10202,7 +10202,7 @@ libpcl-search:
     - libpcl-search1.12
     noble:
     - libpcl-search1.14
-  openEuler: *id291
+  openeuler: *id291
 libpcl-segmentation:
   alpine:
   - pcl-libs
@@ -10238,7 +10238,7 @@ libpcl-segmentation:
     - libpcl-segmentation1.12
     noble:
     - libpcl-segmentation1.14
-  openEuler: *id292
+  openeuler: *id292
 libpcl-stereo:
   alpine:
   - pcl-libs
@@ -10272,7 +10272,7 @@ libpcl-stereo:
     - libpcl-stereo1.12
     noble:
     - libpcl-stereo1.14
-  openEuler: *id293
+  openeuler: *id293
 libpcl-surface:
   alpine:
   - pcl-libs
@@ -10308,7 +10308,7 @@ libpcl-surface:
     - libpcl-surface1.12
     noble:
     - libpcl-surface1.14
-  openEuler: *id294
+  openeuler: *id294
 libpcl-tracking:
   alpine:
   - pcl-libs
@@ -10342,7 +10342,7 @@ libpcl-tracking:
     - libpcl-tracking1.12
     noble:
     - libpcl-tracking1.14
-  openEuler: *id295
+  openeuler: *id295
 libpcl-visualization:
   alpine:
   - pcl-libs
@@ -10376,7 +10376,7 @@ libpcl-visualization:
     - libpcl-visualization1.12
     noble:
     - libpcl-visualization1.14
-  openEuler: *id296
+  openeuler: *id296
 libpcsclite-dev:
   alpine:
   - pcsc-lite-dev
@@ -10392,7 +10392,7 @@ libpcsclite-dev:
   - pcsclite
   ubuntu:
   - libpcsclite-dev
-  openEuler: *id297
+  openeuler: *id297
 libpcsclite1:
   arch:
   - pcsclite
@@ -10415,7 +10415,7 @@ libphonon:
   - media-libs/phonon
   ubuntu:
   - libphonon4
-  openEuler: *id298
+  openeuler: *id298
 libphonon-dev:
   debian:
   - libphonon-dev
@@ -10463,7 +10463,7 @@ libpng-dev:
   ubuntu:
     '*':
     - libpng-dev
-  openEuler: *id299
+  openeuler: *id299
 libpng12-dev:
   arch:
   - libpng12
@@ -10521,7 +10521,7 @@ libpocofoundation9:
   - poco-foundation
   ubuntu:
   - libpocofoundation9
-  openEuler: *id300
+  openeuler: *id300
 libpopt-dev:
   arch:
   - popt
@@ -10535,7 +10535,7 @@ libpopt-dev:
   - popt
   ubuntu:
   - libpopt-dev
-  openEuler: *id301
+  openeuler: *id301
 libpq-dev:
   arch:
   - postgresql-libs
@@ -10549,7 +10549,7 @@ libpq-dev:
   - postgresql
   ubuntu:
   - libpq-dev
-  openEuler: *id302
+  openeuler: *id302
 libpqxx:
   arch:
   - libpqxx
@@ -10595,7 +10595,7 @@ libprocps-dev:
   - procps
   ubuntu:
   - libprocps-dev
-  openEuler: *id303
+  openeuler: *id303
 libprocps6:
   debian:
     stretch:
@@ -10630,7 +10630,7 @@ libpulse-dev:
   - pulseaudio@openembedded-core
   ubuntu:
   - libpulse-dev
-  openEuler: *id304
+  openeuler: *id304
 libqcustomplot-dev:
   arch:
   - qcustomplot
@@ -10751,7 +10751,7 @@ libqhull:
   - qhull
   ubuntu:
   - libqhull-dev
-  openEuler: *id305
+  openeuler: *id305
 libqmi-glib-dev:
   alpine:
   - libqmi-dev
@@ -10765,7 +10765,7 @@ libqmi-glib-dev:
   - libqmi-devel
   ubuntu:
   - libqmi-glib-dev
-  openEuler: *id306
+  openeuler: *id306
 libqrencode:
   arch:
   - qrencode
@@ -10779,7 +10779,7 @@ libqrencode:
   - qrencode
   ubuntu:
   - libqrencode3
-  openEuler: *id307
+  openeuler: *id307
 libqrencode-dev:
   arch:
   - qrencode
@@ -10793,7 +10793,7 @@ libqrencode-dev:
   - qrencode
   ubuntu:
   - libqrencode-dev
-  openEuler: *id308
+  openeuler: *id308
 libqt4:
   debian:
   - libqt4-dbus
@@ -10917,7 +10917,7 @@ libqt5-concurrent:
   - qt5
   ubuntu:
   - libqt5concurrent5
-  openEuler: *id309
+  openeuler: *id309
 libqt5-core:
   alpine:
   - qt5-qtbase
@@ -10943,7 +10943,7 @@ libqt5-core:
   - qt5
   ubuntu:
   - libqt5core5a
-  openEuler: *id310
+  openeuler: *id310
 libqt5-gstreamer-dev:
   debian:
   - libqt5gstreamer-dev
@@ -10974,7 +10974,7 @@ libqt5-gui:
   - qt5
   ubuntu:
   - libqt5gui5
-  openEuler: *id311
+  openeuler: *id311
 libqt5-multimedia:
   arch:
   - qt5-multimedia
@@ -11003,7 +11003,7 @@ libqt5-network:
   - libQt5Network5
   ubuntu:
   - libqt5network5
-  openEuler: *id312
+  openeuler: *id312
 libqt5-opengl:
   alpine:
   - qt5-qtbase-dev
@@ -11029,7 +11029,7 @@ libqt5-opengl:
   - qt5
   ubuntu:
   - libqt5opengl5
-  openEuler: *id313
+  openeuler: *id313
 libqt5-opengl-dev:
   arch:
   - qt5-base
@@ -11053,7 +11053,7 @@ libqt5-opengl-dev:
   - qt5
   ubuntu:
   - libqt5opengl5-dev
-  openEuler: *id314
+  openeuler: *id314
 libqt5-printsupport:
   arch:
   - qt5-base
@@ -11069,7 +11069,7 @@ libqt5-printsupport:
   - qt5.qtbase
   ubuntu:
   - libqt5printsupport5
-  openEuler: *id315
+  openeuler: *id315
 libqt5-qml:
   arch:
   - qt5-declarative
@@ -11085,7 +11085,7 @@ libqt5-qml:
   - qt5-qtdeclarative
   ubuntu:
   - libqt5qml5
-  openEuler: *id316
+  openeuler: *id316
 libqt5-quick:
   arch:
   - qt5-declarative
@@ -11101,7 +11101,7 @@ libqt5-quick:
   - qt5-qtdeclarative
   ubuntu:
   - libqt5quick5
-  openEuler: *id317
+  openeuler: *id317
 libqt5-serialport:
   alpine:
   - qt5-qtserialport
@@ -11119,7 +11119,7 @@ libqt5-serialport:
   - qt5.qtserialport
   ubuntu:
   - libqt5serialport5
-  openEuler: *id318
+  openeuler: *id318
 libqt5-serialport-dev:
   alpine:
   - qt5-qtserialport-dev
@@ -11133,7 +11133,7 @@ libqt5-serialport-dev:
   - dev-qt/qtserialport:5
   ubuntu:
   - libqt5serialport5-dev
-  openEuler: *id319
+  openeuler: *id319
 libqt5-sql:
   arch:
   - qt5-base
@@ -11152,7 +11152,7 @@ libqt5-sql:
   - qt5.qtbase
   ubuntu:
   - libqt5sql5
-  openEuler: *id320
+  openeuler: *id320
 libqt5-svg:
   arch:
   - qt5-svg
@@ -11174,7 +11174,7 @@ libqt5-svg:
   - qt5-qtsvg
   ubuntu:
   - libqt5svg5
-  openEuler: *id321
+  openeuler: *id321
 libqt5-svg-dev:
   arch:
   - qt5-svg
@@ -11196,7 +11196,7 @@ libqt5-svg-dev:
   - qt5-qtsvg-devel
   ubuntu:
   - libqt5svg5-dev
-  openEuler: *id322
+  openeuler: *id322
 libqt5-websockets-dev:
   arch:
   - qt5-websockets
@@ -11214,7 +11214,7 @@ libqt5-websockets-dev:
   - qt5-qtwebsockets-devel
   ubuntu:
   - libqt5websockets5-dev
-  openEuler: *id323
+  openeuler: *id323
 libqt5-widgets:
   alpine:
   - qt5-qtbase-dev
@@ -11240,7 +11240,7 @@ libqt5-widgets:
   - qt5
   ubuntu:
   - libqt5widgets5
-  openEuler: *id324
+  openeuler: *id324
 libqt5-xml:
   arch:
   - qt5-base
@@ -11263,7 +11263,7 @@ libqt5multimedia5-plugins:
   - qtmultimedia@meta-qt5
   ubuntu:
   - libqt5multimedia5-plugins
-  openEuler: *id325
+  openeuler: *id325
 libqt5x11extras5-dev:
   arch:
   - qt5-x11extras
@@ -11283,7 +11283,7 @@ libqt5x11extras5-dev:
   - qt5-qtx11extras-devel
   ubuntu:
   - libqt5x11extras5-dev
-  openEuler: *id326
+  openeuler: *id326
 libqtgui4:
   debian:
   - libqtgui4
@@ -11371,7 +11371,7 @@ librabbitmq-dev:
   - librabbitmq-devel
   ubuntu:
   - librabbitmq-dev
-  openEuler: *id327
+  openeuler: *id327
 librapidxml-dev:
   debian:
   - librapidxml-dev
@@ -11396,7 +11396,7 @@ libraw1394:
   - libraw1394@meta-oe
   ubuntu:
   - libraw1394-11
-  openEuler: *id328
+  openeuler: *id328
 libraw1394-dev:
   arch:
     pacman:
@@ -11416,7 +11416,7 @@ libraw1394-dev:
   - libraw1394-devel
   ubuntu:
   - libraw1394-dev
-  openEuler: *id329
+  openeuler: *id329
 librdkafka-dev:
   arch:
   - librdkafka
@@ -11430,7 +11430,7 @@ librdkafka-dev:
   - rdkafka
   ubuntu:
   - librdkafka-dev
-  openEuler: *id330
+  openeuler: *id330
 libreadline:
   arch:
   - readline
@@ -11450,7 +11450,7 @@ libreadline:
   - readline
   ubuntu:
   - libreadline-dev
-  openEuler: *id331
+  openeuler: *id331
 libreadline-dev:
   arch:
   - readline
@@ -11468,7 +11468,7 @@ libreadline-dev:
   - readline@openembedded-core
   ubuntu:
   - libreadline-dev
-  openEuler: *id332
+  openeuler: *id332
 libreadline-java:
   debian:
   - libreadline-java
@@ -11521,7 +11521,7 @@ libsensors4-dev:
   - lm_sensors-devel
   ubuntu:
   - libsensors4-dev
-  openEuler: *id333
+  openeuler: *id333
 libserial-dev:
   debian:
   - libserial-dev
@@ -11577,7 +11577,7 @@ libsndfile1-dev:
   - libsndfile-devel
   ubuntu:
   - libsndfile1-dev
-  openEuler: *id334
+  openeuler: *id334
 libsodium-dev:
   alpine:
   - libsodium-dev
@@ -11595,7 +11595,7 @@ libsodium-dev:
   - libsodium-devel
   ubuntu:
   - libsodium-dev
-  openEuler: *id335
+  openeuler: *id335
 libsoqt4-dev:
   arch:
   - soqt
@@ -11641,7 +11641,7 @@ libsoup2-dev:
   - libsoup-2_4-1
   ubuntu:
   - libsoup2.4-dev
-  openEuler: *id336
+  openeuler: *id336
 libspatialindex-dev:
   arch:
   - spatialindex
@@ -11668,7 +11668,7 @@ libspatialite:
   ubuntu:
     '*':
     - libsqlite3-mod-spatialite
-  openEuler: *id337
+  openeuler: *id337
 libspnav-dev:
   arch:
   - libspnav
@@ -11720,7 +11720,7 @@ libsrtp0-dev:
   - net-libs/libsrtp:0
   ubuntu:
   - libsrtp0-dev
-  openEuler: *id338
+  openeuler: *id338
 libssh-dev:
   arch:
   - libssh
@@ -11734,7 +11734,7 @@ libssh-dev:
   - libssh
   ubuntu:
   - libssh-dev
-  openEuler: *id339
+  openeuler: *id339
 libssh2:
   arch:
   - libssh2
@@ -11748,7 +11748,7 @@ libssh2:
   - libssh2
   ubuntu:
   - libssh2-1
-  openEuler: *id340
+  openeuler: *id340
 libssh2-dev:
   arch:
   - libssh2
@@ -11762,7 +11762,7 @@ libssh2-dev:
   - libssh2
   ubuntu:
   - libssh2-1-dev
-  openEuler: *id341
+  openeuler: *id341
 libssl-dev:
   alpine:
   - libressl-dev
@@ -11786,7 +11786,7 @@ libssl-dev:
   - openssl-devel
   ubuntu:
   - libssl-dev
-  openEuler: *id342
+  openeuler: *id342
 libstdc++5:
   debian:
   - libstdc++5
@@ -11808,7 +11808,7 @@ libstdc++6:
   nixos: []
   ubuntu:
   - libstdc++6
-  openEuler: *id343
+  openeuler: *id343
 libsvm-dev:
   arch:
   - libsvm
@@ -11822,7 +11822,7 @@ libsvm-dev:
   - libsvm
   ubuntu:
   - libsvm-dev
-  openEuler: *id344
+  openeuler: *id344
 libsvm3:
   arch:
   - libsvm
@@ -11836,7 +11836,7 @@ libsvm3:
   - libsvm
   ubuntu:
   - libsvm3
-  openEuler: *id345
+  openeuler: *id345
 libsvn-dev:
   arch:
   - subversion
@@ -11846,7 +11846,7 @@ libsvn-dev:
   - subversion-devel
   ubuntu:
   - libsvn-dev
-  openEuler: *id346
+  openeuler: *id346
 libswscale-dev:
   arch:
   - ffmpeg
@@ -11874,7 +11874,7 @@ libsystemd-dev:
   ubuntu:
     '*':
     - libsystemd-dev
-  openEuler: *id347
+  openeuler: *id347
 libtclap-dev:
   arch:
   - tclap
@@ -11903,7 +11903,7 @@ libtesseract:
   - tesseract
   ubuntu:
   - libtesseract-dev
-  openEuler: *id348
+  openeuler: *id348
 libtheora:
   arch:
   - libtheora
@@ -11931,7 +11931,7 @@ libtheora:
       - libtheora
   ubuntu:
   - libtheora-dev
-  openEuler: *id349
+  openeuler: *id349
 libtiff-dev:
   arch:
   - libtiff
@@ -11955,7 +11955,7 @@ libtiff-dev:
       - libtiff
   ubuntu:
   - libtiff-dev
-  openEuler: *id350
+  openeuler: *id350
 libtiff4-dev:
   arch:
   - libtiff
@@ -11971,7 +11971,7 @@ libtiff4-dev:
   - libtiff
   ubuntu:
   - libtiff4-dev
-  openEuler: *id351
+  openeuler: *id351
 libtins-dev:
   alpine:
   - libtins-dev
@@ -12057,7 +12057,7 @@ libturbojpeg:
   ubuntu:
     '*':
     - libturbojpeg0-dev
-  openEuler: *id352
+  openeuler: *id352
 libudev-dev:
   arch:
   - systemd
@@ -12075,7 +12075,7 @@ libudev-dev:
   - systemd-devel
   ubuntu:
   - libudev-dev
-  openEuler: *id353
+  openeuler: *id353
 libunittest++:
   arch:
   - unittestpp
@@ -12108,7 +12108,7 @@ libunwind:
   ubuntu:
     '*':
     - libunwind8
-  openEuler: *id354
+  openeuler: *id354
 libunwind-dev:
   arch:
   - libunwind
@@ -12128,7 +12128,7 @@ libunwind-dev:
   ubuntu:
     '*':
     - libunwind-dev
-  openEuler: *id355
+  openeuler: *id355
 liburdfdom-dev:
   debian:
   - liburdfdom-dev
@@ -12209,7 +12209,7 @@ libusb:
   - libusb
   ubuntu:
   - libusb-0.1-4
-  openEuler: *id356
+  openeuler: *id356
 libusb-1.0:
   arch:
   - libusb
@@ -12229,7 +12229,7 @@ libusb-1.0:
   - libusbx
   ubuntu:
   - libusb-1.0-0
-  openEuler: *id357
+  openeuler: *id357
 libusb-1.0-dev:
   arch:
   - libusb
@@ -12251,7 +12251,7 @@ libusb-1.0-dev:
   - libusbx-devel
   ubuntu:
   - libusb-1.0-0-dev
-  openEuler: *id358
+  openeuler: *id358
 libusb-dev:
   arch:
   - libusb-compat
@@ -12273,7 +12273,7 @@ libusb-dev:
   - libusb-devel
   ubuntu:
   - libusb-dev
-  openEuler: *id359
+  openeuler: *id359
 libuv-dev:
   debian: null
   ubuntu:
@@ -12293,7 +12293,7 @@ libuv1-dev:
   - libuv
   ubuntu:
   - libuv1-dev
-  openEuler: *id360
+  openeuler: *id360
 libuvc-dev:
   debian:
     '*':
@@ -12394,7 +12394,7 @@ libvorbis-dev:
   - libvorbis-devel
   ubuntu:
   - libvorbis-dev
-  openEuler: *id361
+  openeuler: *id361
 libvpx-dev:
   arch:
   - libvpx
@@ -12410,7 +12410,7 @@ libvpx-dev:
   - libvpx-devel
   ubuntu:
   - libvpx-dev
-  openEuler: *id362
+  openeuler: *id362
 libvtk:
   arch:
   - vtk
@@ -12538,7 +12538,7 @@ libwebp-dev:
   - libwebp@openembedded-core
   ubuntu:
   - libwebp-dev
-  openEuler: *id363
+  openeuler: *id363
 libwebp-tools:
   alpine:
   - libwebp-tools
@@ -12594,7 +12594,7 @@ libwebsockets-dev:
   - libwebsockets-devel
   ubuntu:
   - libwebsockets-dev
-  openEuler: *id364
+  openeuler: *id364
 libx11:
   alpine:
   - libx11
@@ -12616,7 +12616,7 @@ libx11:
   - libX11-6
   ubuntu:
   - libx11-dev
-  openEuler: *id365
+  openeuler: *id365
 libx11-dev:
   alpine:
   - libx11-dev
@@ -12640,7 +12640,7 @@ libx11-dev:
   - libX11-devel
   ubuntu:
   - libx11-dev
-  openEuler: *id366
+  openeuler: *id366
 libx11-xcb-dev:
   alpine:
   - libx11-dev
@@ -12660,7 +12660,7 @@ libx11-xcb-dev:
   - libX11-devel
   ubuntu:
   - libx11-xcb-dev
-  openEuler: *id367
+  openeuler: *id367
 libx264-dev:
   arch:
   - x264
@@ -12674,7 +12674,7 @@ libx264-dev:
   - x264
   ubuntu:
   - libx264-dev
-  openEuler: *id368
+  openeuler: *id368
 libxaw:
   alpine:
   - libxaw-dev
@@ -12700,7 +12700,7 @@ libxaw:
   - libXaw-devel
   ubuntu:
   - libxaw7-dev
-  openEuler: *id369
+  openeuler: *id369
 libxcb-randr0-dev:
   alpine:
   - libxcb-dev
@@ -12716,7 +12716,7 @@ libxcb-randr0-dev:
   - xorg.libxcb
   ubuntu:
   - libxcb-randr0-dev
-  openEuler: *id370
+  openeuler: *id370
 libxcursor-dev:
   arch:
   - libxcursor
@@ -12728,7 +12728,7 @@ libxcursor-dev:
   - xorg.libXcursor
   ubuntu:
   - libxcursor-dev
-  openEuler: *id371
+  openeuler: *id371
 libxenomai-dev:
   debian:
     wheezy:
@@ -12758,7 +12758,7 @@ libxext:
   - libXext-devel
   ubuntu:
   - libxext-dev
-  openEuler: *id372
+  openeuler: *id372
 libxft-dev:
   arch:
   - libxft
@@ -12772,7 +12772,7 @@ libxft-dev:
   - xorg.libXft
   ubuntu:
   - libxft-dev
-  openEuler: *id373
+  openeuler: *id373
 libxi-dev:
   arch:
   - libxi
@@ -12790,7 +12790,7 @@ libxi-dev:
   - libXi-devel
   ubuntu:
   - libxi-dev
-  openEuler: *id374
+  openeuler: *id374
 libxinerama-dev:
   arch:
   - libxinerama
@@ -12804,7 +12804,7 @@ libxinerama-dev:
   - xorg.libXinerama
   ubuntu:
   - libxinerama-dev
-  openEuler: *id375
+  openeuler: *id375
 libxkbcommon-dev:
   arch:
   - libxkbcommon
@@ -12818,7 +12818,7 @@ libxkbcommon-dev:
   - libxkbcommon-devel
   ubuntu:
   - libxkbcommon-dev
-  openEuler: *id376
+  openeuler: *id376
 libxml++-2.6:
   arch:
   - libxml++
@@ -12833,7 +12833,7 @@ libxml++-2.6:
   - libxmlxx
   ubuntu:
   - libxml++2.6-dev
-  openEuler: *id377
+  openeuler: *id377
 libxml2:
   arch:
   - libxml2
@@ -12857,7 +12857,7 @@ libxml2:
   - libxml2-devel
   ubuntu:
   - libxml2-dev
-  openEuler: *id378
+  openeuler: *id378
 libxml2-utils:
   alpine:
   - libxml2-utils
@@ -12879,7 +12879,7 @@ libxml2-utils:
   - libxml2
   ubuntu:
   - libxml2-utils
-  openEuler: *id379
+  openeuler: *id379
 libxmlrpc-c++:
   arch:
   - libxmlrpc
@@ -12897,7 +12897,7 @@ libxmlrpc-c++:
   - xmlrpc-c-devel
   ubuntu:
   - libxmlrpc-c++8-dev
-  openEuler: *id380
+  openeuler: *id380
 libxmu-dev:
   arch:
   - libxmu
@@ -12915,7 +12915,7 @@ libxmu-dev:
   - libXmu-devel
   ubuntu:
   - libxmu-dev
-  openEuler: *id381
+  openeuler: *id381
 libxrandr:
   alpine:
   - libxrandr-dev
@@ -12939,7 +12939,7 @@ libxrandr:
   - libXrandr-devel
   ubuntu:
   - libxrandr-dev
-  openEuler: *id382
+  openeuler: *id382
 libxslt:
   arch:
   - libxslt
@@ -12955,7 +12955,7 @@ libxslt:
   - libxslt
   ubuntu:
   - libxslt1-dev
-  openEuler: *id383
+  openeuler: *id383
 libxss1:
   arch:
   - libxss
@@ -12969,7 +12969,7 @@ libxss1:
   - xorg.libXScrnSaver
   ubuntu:
   - libxss1
-  openEuler: *id384
+  openeuler: *id384
 libxt-dev:
   arch:
   - libxt
@@ -12985,7 +12985,7 @@ libxt-dev:
   - libxt@openembedded-core
   ubuntu:
   - libxt-dev
-  openEuler: *id385
+  openeuler: *id385
 libxtst-dev:
   arch:
   - libxtst
@@ -12997,7 +12997,7 @@ libxtst-dev:
   - x11-libs/libXtst
   ubuntu:
   - libxtst-dev
-  openEuler: *id386
+  openeuler: *id386
 libxxf86vm:
   arch:
   - libxxf86vm
@@ -13021,7 +13021,7 @@ libxxf86vm:
   - libXxf86vm-devel
   ubuntu:
   - libxxf86vm-dev
-  openEuler: *id387
+  openeuler: *id387
 libyaml:
   alpine:
   - yaml
@@ -13045,7 +13045,7 @@ libyaml:
   - libyaml
   ubuntu:
   - libyaml-0-2
-  openEuler: *id388
+  openeuler: *id388
 libyaml-dev:
   alpine:
   - yaml-dev
@@ -13069,7 +13069,7 @@ libyaml-dev:
   - libyaml-devel
   ubuntu:
   - libyaml-dev
-  openEuler: *id389
+  openeuler: *id389
 libzip-dev:
   arch:
   - libzip
@@ -13083,7 +13083,7 @@ libzip-dev:
   - libzip
   ubuntu:
   - libzip-dev
-  openEuler: *id390
+  openeuler: *id390
 libzmq3-dev:
   arch:
   - zeromq
@@ -13117,7 +13117,7 @@ libzmq3-dev:
     - libzmq3-dev
     jammy:
     - libzmq3-dev
-  openEuler: *id391
+  openeuler: *id391
 libzmqpp-dev:
   ubuntu:
   - libzmqpp-dev
@@ -13168,7 +13168,7 @@ lighttpd:
   - lighttpd
   ubuntu:
   - lighttpd
-  openEuler: *id392
+  openeuler: *id392
 lilypond:
   arch:
   - lilypond
@@ -13213,7 +13213,7 @@ linux-headers-generic:
   - kernel-devel
   ubuntu:
   - linux-headers-generic
-  openEuler: *id393
+  openeuler: *id393
 linux-kernel-headers:
   arch:
   - linux-api-headers
@@ -13229,7 +13229,7 @@ linux-kernel-headers:
   - linux-libc-headers@openembedded-core
   ubuntu:
   - linux-libc-dev
-  openEuler: *id394
+  openeuler: *id394
 llvm:
   arch:
   - llvm
@@ -13245,7 +13245,7 @@ llvm:
   - llvm@openembedded-core
   ubuntu:
   - llvm
-  openEuler: *id395
+  openeuler: *id395
 llvm-7:
   debian:
     buster:
@@ -13291,7 +13291,7 @@ llvm-dev:
   - llvm@openembedded-core
   ubuntu:
   - llvm-dev
-  openEuler: *id396
+  openeuler: *id396
 lm-sensors:
   arch:
   - lm_sensors
@@ -13309,7 +13309,7 @@ lm-sensors:
   - lm_sensors
   ubuntu:
   - lm-sensors
-  openEuler: *id397
+  openeuler: *id397
 log4cplus:
   arch:
   - log4cplus
@@ -13325,7 +13325,7 @@ log4cplus:
   - log4cplus-devel
   ubuntu:
   - liblog4cplus-dev
-  openEuler: *id398
+  openeuler: *id398
 log4cxx:
   alpine:
   - log4cxx-dev
@@ -13413,7 +13413,7 @@ lttng-tools:
   - lttng-tools
   ubuntu:
   - lttng-tools
-  openEuler: *id399
+  openeuler: *id399
 lua-dev:
   arch:
   - lua
@@ -13446,7 +13446,7 @@ lua5.2-dev:
   - lua-devel
   ubuntu:
   - liblua5.2-dev
-  openEuler: *id400
+  openeuler: *id400
 lz4:
   alpine:
   - lz4-dev
@@ -13472,7 +13472,7 @@ lz4:
   - lz4
   ubuntu:
   - liblz4-dev
-  openEuler: *id401
+  openeuler: *id401
 m2r:
   alpine:
     pip:
@@ -13507,7 +13507,7 @@ m2r:
     '*':
     - m2r
     bionic: null
-  openEuler: *id402
+  openeuler: *id402
 m4:
   arch:
   - m4
@@ -13523,7 +13523,7 @@ m4:
   - m4
   ubuntu:
   - m4
-  openEuler: *id403
+  openeuler: *id403
 mapnik-utils:
   arch:
   - mapnik
@@ -13563,7 +13563,7 @@ maven:
   - maven
   ubuntu:
   - maven
-  openEuler: *id404
+  openeuler: *id404
 mayavi:
   debian:
   - mayavi2
@@ -13605,7 +13605,7 @@ mercurial:
   - mercurial
   ubuntu:
   - mercurial
-  openEuler: *id405
+  openeuler: *id405
 mesa-common-dev:
   arch:
   - mesa
@@ -13619,7 +13619,7 @@ mesa-common-dev:
   - media-libs/mesa
   ubuntu:
   - mesa-common-dev
-  openEuler: *id406
+  openeuler: *id406
 mesa-utils:
   arch:
   - mesa-utils
@@ -13743,7 +13743,7 @@ mosquitto:
   - mosquitto
   ubuntu:
   - mosquitto
-  openEuler: *id407
+  openeuler: *id407
 mosquitto-clients:
   arch:
   - mosquitto
@@ -13753,7 +13753,7 @@ mosquitto-clients:
   - mosquitto
   ubuntu:
   - mosquitto-clients
-  openEuler: *id408
+  openeuler: *id408
 mosquitto-dev:
   arch:
   - mosquitto
@@ -13763,7 +13763,7 @@ mosquitto-dev:
   - mosquitto-devel
   ubuntu:
   - libmosquitto-dev
-  openEuler: *id409
+  openeuler: *id409
 mosquittopp-dev:
   arch:
   - mosquitto
@@ -13775,7 +13775,7 @@ mosquittopp-dev:
   - mosquitto
   ubuntu:
   - libmosquittopp-dev
-  openEuler: *id410
+  openeuler: *id410
 mpfr:
   arch:
   - mpfr
@@ -13789,7 +13789,7 @@ mpfr:
   - mpfr
   ubuntu:
   - libmpfr-dev
-  openEuler: *id411
+  openeuler: *id411
 mpg123:
   arch:
   - mpg123
@@ -13803,7 +13803,7 @@ mpg123:
   - mpg123
   ubuntu:
   - mpg123
-  openEuler: *id412
+  openeuler: *id412
 mplayer:
   arch:
   - mplayer
@@ -13934,7 +13934,7 @@ nasm:
   - nasm
   ubuntu:
   - nasm
-  openEuler: *id413
+  openeuler: *id413
 nbtscan:
   arch:
   - nbtscan
@@ -13963,7 +13963,7 @@ net-tools:
   - net-tools@openembedded-core
   ubuntu:
   - net-tools
-  openEuler: *id414
+  openeuler: *id414
 netcdf:
   arch:
   - netcdf
@@ -13982,7 +13982,7 @@ netcdf:
   - netcdf
   ubuntu:
   - libnetcdf-dev
-  openEuler: *id415
+  openeuler: *id415
 netpbm:
   arch:
   - netpbm
@@ -14002,7 +14002,7 @@ netpbm:
   - netpbm-devel
   ubuntu:
   - libnetpbm10-dev
-  openEuler: *id416
+  openeuler: *id416
 network-manager:
   arch:
   - networkmanager
@@ -14020,7 +14020,7 @@ network-manager:
   - NetworkManager
   ubuntu:
   - network-manager
-  openEuler: *id417
+  openeuler: *id417
 ninja-build:
   arch:
   - ninja
@@ -14034,7 +14034,7 @@ ninja-build:
   - ninja
   ubuntu:
   - ninja-build
-  openEuler: *id418
+  openeuler: *id418
 nite-dev:
   arch:
   - primesense-nite
@@ -14093,7 +14093,7 @@ nmap:
   - nmap
   ubuntu:
   - nmap
-  openEuler: *id419
+  openeuler: *id419
 nodejs:
   arch:
   - nodejs
@@ -14109,7 +14109,7 @@ nodejs:
   - nodejs@meta-oe
   ubuntu:
   - nodejs
-  openEuler: *id420
+  openeuler: *id420
 nodejs-legacy:
   arch:
   - nodejs
@@ -14121,7 +14121,7 @@ nodejs-legacy:
   - nodejs
   ubuntu:
   - nodejs-legacy
-  openEuler: *id421
+  openeuler: *id421
 npm:
   arch:
   - npm
@@ -14135,7 +14135,7 @@ npm:
   - nodePackages.npm
   ubuntu:
   - npm
-  openEuler: *id422
+  openeuler: *id422
 ntp:
   arch: &id423
   - ntp
@@ -14147,7 +14147,7 @@ ntp:
   - ntp
   ubuntu:
   - ntp
-  openEuler: *id423
+  openeuler: *id423
 ntpdate:
   arch: &id424
   - ntp
@@ -14159,7 +14159,7 @@ ntpdate:
   - ntp
   ubuntu:
   - ntpdate
-  openEuler: *id424
+  openeuler: *id424
 nvidia-cg:
   arch:
   - nvidia-cg-toolkit
@@ -14216,7 +14216,7 @@ ocl-icd-opencl-dev:
   - ocl-icd-devel
   ubuntu:
   - ocl-icd-opencl-dev
-  openEuler: *id425
+  openeuler: *id425
 octave:
   alpine:
   - octave
@@ -14234,7 +14234,7 @@ octave:
   - octave
   ubuntu:
   - octave
-  openEuler: *id426
+  openeuler: *id426
 odb:
   debian:
   - odb
@@ -14315,7 +14315,7 @@ opencl-headers:
   - opencl-headers
   ubuntu:
   - opencl-headers
-  openEuler: *id427
+  openeuler: *id427
 opende:
   arch:
   - ode
@@ -14368,7 +14368,7 @@ opengl:
   ubuntu:
   - libgl1-mesa-dev
   - libglu1-mesa-dev
-  openEuler: *id428
+  openeuler: *id428
 openjdk-6-jdk:
   debian:
     wheezy:
@@ -14390,7 +14390,7 @@ openmpi:
   nixos:
   - openmpi
   ubuntu: []
-  openEuler: *id429
+  openeuler: *id429
 openni-dev:
   arch:
   - openni
@@ -14404,7 +14404,7 @@ openni-dev:
   - openni-devel
   ubuntu:
   - libopenni-dev
-  openEuler: *id430
+  openeuler: *id430
 openocd:
   arch:
   - openocd
@@ -14434,7 +14434,7 @@ openssh-client:
   - openssh
   ubuntu:
   - openssh-client
-  openEuler: *id431
+  openeuler: *id431
 openssh-server:
   arch:
   - openssh
@@ -14448,7 +14448,7 @@ openssh-server:
   - openssh
   ubuntu:
   - openssh-server
-  openEuler: *id432
+  openeuler: *id432
 openssl:
   alpine:
   - openssl
@@ -14472,7 +14472,7 @@ openssl:
   - openssl
   ubuntu:
   - openssl
-  openEuler: *id433
+  openeuler: *id433
 optipng:
   arch:
   - optipng
@@ -14486,7 +14486,7 @@ optipng:
   - optipng
   ubuntu:
   - optipng
-  openEuler: *id434
+  openeuler: *id434
 osm2pgsql:
   arch:
   - osm2pgsql
@@ -14557,7 +14557,7 @@ patchelf:
   - patchelf
   ubuntu:
   - patchelf
-  openEuler: *id435
+  openeuler: *id435
 pcre:
   alpine:
   - pcre-dev
@@ -14579,7 +14579,7 @@ pcre:
   - pcre-devel
   ubuntu:
   - libpcre3-dev
-  openEuler: *id436
+  openeuler: *id436
 pcre-dev:
   arch:
   - pcre
@@ -14595,7 +14595,7 @@ pcre-dev:
   - pcre-devel
   ubuntu:
   - libpcre++-dev
-  openEuler: *id437
+  openeuler: *id437
 pcscd:
   alpine:
   - pcsc-lite
@@ -14611,7 +14611,7 @@ pcscd:
   - pcsclite
   ubuntu:
   - pcscd
-  openEuler: *id438
+  openeuler: *id438
 phantomjs:
   debian:
     buster:
@@ -14638,7 +14638,7 @@ php:
   - dev-lang/php
   nixos:
   - php
-  openEuler: *id439
+  openeuler: *id439
 pigz:
   arch:
   - pigz
@@ -14652,7 +14652,7 @@ pigz:
   - pigz
   ubuntu:
   - pigz
-  openEuler: *id440
+  openeuler: *id440
 pkg-config:
   alpine:
   - pkgconf
@@ -14746,7 +14746,7 @@ poppler-utils:
   - app-text/poppler
   ubuntu:
   - poppler-utils
-  openEuler: *id441
+  openeuler: *id441
 portaudio:
   arch:
   - portaudio
@@ -14762,7 +14762,7 @@ portaudio:
   - portaudio-v19@meta-oe
   ubuntu:
   - libportaudio-dev
-  openEuler: *id442
+  openeuler: *id442
 portaudio19-dev:
   debian:
   - portaudio19-dev
@@ -14776,7 +14776,7 @@ portaudio19-dev:
   - portaudio-v19@meta-oe
   ubuntu:
   - portaudio19-dev
-  openEuler: *id443
+  openeuler: *id443
 postfix:
   alpine:
   - postfix
@@ -14794,7 +14794,7 @@ postfix:
   - postfix
   ubuntu:
   - postfix
-  openEuler: *id444
+  openeuler: *id444
 postgresql:
   arch:
   - postgresql
@@ -14813,7 +14813,7 @@ postgresql:
   ubuntu:
   - postgresql
   - postgresql-contrib
-  openEuler: *id445
+  openeuler: *id445
 postgresql-9.x-postgis:
   debian:
     buster:
@@ -14844,7 +14844,7 @@ postgresql-client:
   - postgresql
   ubuntu:
   - postgresql-client
-  openEuler: *id446
+  openeuler: *id446
 postgresql-postgis:
   debian:
     buster:
@@ -14884,7 +14884,7 @@ potrace:
   - potrace
   ubuntu:
   - potrace
-  openEuler: *id447
+  openeuler: *id447
 powertop:
   arch:
   - powertop
@@ -14896,7 +14896,7 @@ powertop:
   - powertop
   ubuntu:
   - powertop
-  openEuler: *id448
+  openeuler: *id448
 procps:
   arch:
   - procps-ng
@@ -14912,7 +14912,7 @@ procps:
   - procps@openembedded-core
   ubuntu:
   - procps
-  openEuler: *id449
+  openeuler: *id449
 proj:
   arch:
   - proj
@@ -14936,7 +14936,7 @@ proj:
   - proj
   ubuntu:
   - libproj-dev
-  openEuler: *id450
+  openeuler: *id450
 protobuf:
   arch:
   - protobuf
@@ -14974,7 +14974,7 @@ protobuf:
     - libprotobuf23
     noble:
     - libprotobuf32
-  openEuler: *id451
+  openeuler: *id451
 protobuf-compiler-grpc:
   arch:
   - grpc
@@ -15021,7 +15021,7 @@ protobuf-dev:
   - libprotobuf-dev
   - protobuf-compiler
   - libprotoc-dev
-  openEuler: *id452
+  openeuler: *id452
 ps-engine:
   arch:
   - primesense-sensor
@@ -15054,7 +15054,7 @@ psmisc:
   - psmisc
   ubuntu:
   - psmisc
-  openEuler: *id453
+  openeuler: *id453
 pstoedit:
   arch:
   - pstoedit
@@ -15070,7 +15070,7 @@ pstoedit:
   - pstoedit
   ubuntu:
   - pstoedit
-  openEuler: *id454
+  openeuler: *id454
 psutils:
   arch:
   - psutils
@@ -15084,7 +15084,7 @@ psutils:
   - psutils
   ubuntu:
   - psutils
-  openEuler: *id455
+  openeuler: *id455
 pugixml-dev:
   arch:
   - pugixml
@@ -15176,7 +15176,7 @@ qhull-bin:
   - qhull
   ubuntu:
   - qhull-bin
-  openEuler: *id456
+  openeuler: *id456
 qml-module-qt-labs-folderlistmodel:
   arch:
   - qt5-declarative
@@ -15199,7 +15199,7 @@ qml-module-qt-labs-platform:
   - qt5.qtquickcontrols2
   ubuntu:
   - qml-module-qt-labs-platform
-  openEuler: *id457
+  openeuler: *id457
 qml-module-qt-labs-settings:
   arch:
   - qt5-declarative
@@ -15222,7 +15222,7 @@ qml-module-qtcharts:
   - qt5.qtcharts
   ubuntu:
   - qml-module-qtcharts
-  openEuler: *id458
+  openeuler: *id458
 qml-module-qtgraphicaleffects:
   arch:
   - qt5-graphicaleffects
@@ -15245,7 +15245,7 @@ qml-module-qtlocation:
   - qt5.qtlocation
   ubuntu:
   - qml-module-qtlocation
-  openEuler: *id459
+  openeuler: *id459
 qml-module-qtmultimedia:
   arch:
   - qt5-multimedia
@@ -15268,7 +15268,7 @@ qml-module-qtpositioning:
   - qt5.qtpositioning
   ubuntu:
   - qml-module-qtpositioning
-  openEuler: *id460
+  openeuler: *id460
 qml-module-qtquick-controls:
   arch:
   - qt5-quickcontrols
@@ -15313,7 +15313,7 @@ qml-module-qtquick-extras:
   - qt5-qtquickcontrols
   ubuntu:
   - qml-module-qtquick-extras
-  openEuler: *id461
+  openeuler: *id461
 qml-module-qtquick-layouts:
   arch:
   - qt5-declarative
@@ -15363,7 +15363,7 @@ qrencode:
   - qrencode
   ubuntu:
   - qrencode
-  openEuler: *id462
+  openeuler: *id462
 qt4-dev-tools:
   debian:
   - qt4-dev-tools
@@ -15379,7 +15379,7 @@ qt4-dev-tools:
   - libqt4-devel-doc
   ubuntu:
   - qt4-dev-tools
-  openEuler: *id463
+  openeuler: *id463
 qt4-linguist-tools:
   debian:
   - qt4-linguist-tools
@@ -15391,7 +15391,7 @@ qt4-linguist-tools:
     '*': null
     bionic:
     - qt4-linguist-tools
-  openEuler: *id464
+  openeuler: *id464
 qt4-qmake:
   debian:
   - qt4-qmake
@@ -15447,7 +15447,7 @@ qt5-qmake:
   - qt5
   ubuntu:
   - qt5-qmake
-  openEuler: *id465
+  openeuler: *id465
 qtbase5-dev:
   alpine:
   - qt5-qtbase-dev
@@ -15476,7 +15476,7 @@ qtbase5-dev:
   - qt5
   ubuntu:
   - qtbase5-dev
-  openEuler: *id466
+  openeuler: *id466
 qtbase5-private-dev:
   arch:
   - qt5-base
@@ -15488,7 +15488,7 @@ qtbase5-private-dev:
   - qt5-qtbase-private-devel
   ubuntu:
   - qtbase5-private-dev
-  openEuler: *id467
+  openeuler: *id467
 qtdeclarative5-dev:
   arch:
   - qt5-declarative
@@ -15507,7 +15507,7 @@ qtdeclarative5-dev:
   - qtdeclarative@meta-qt5
   ubuntu:
   - qtdeclarative5-dev
-  openEuler: *id468
+  openeuler: *id468
 qtmobility-dev:
   debian:
   - qtmobility-dev
@@ -15517,7 +15517,7 @@ qtmobility-dev:
   - dev-qt/qt-mobility
   ubuntu:
   - qtmobility-dev
-  openEuler: *id469
+  openeuler: *id469
 qtmultimedia5-dev:
   arch:
   - qt5-multimedia
@@ -15535,7 +15535,7 @@ qtmultimedia5-dev:
   - qtmultimedia@meta-qt5
   ubuntu:
   - qtmultimedia5-dev
-  openEuler: *id470
+  openeuler: *id470
 qtpositioning5-dev:
   arch:
   - qt5-location
@@ -15558,7 +15558,7 @@ qtquickcontrols2-5-dev:
   - qt5.qtquickcontrols
   ubuntu:
   - qtquickcontrols2-5-dev
-  openEuler: *id471
+  openeuler: *id471
 qttools5-dev:
   arch:
   - qt5-tools
@@ -15572,7 +15572,7 @@ qttools5-dev:
   - qt5-qttools-devel
   ubuntu:
   - qttools5-dev
-  openEuler: *id472
+  openeuler: *id472
 qttools5-dev-tools:
   arch:
   - qt5-tools
@@ -15588,7 +15588,7 @@ qttools5-dev-tools:
   - qt5-qttools-devel
   ubuntu:
   - qttools5-dev-tools
-  openEuler: *id473
+  openeuler: *id473
 qtwebengine5-dev:
   arch:
   - qt5-webengine
@@ -15604,7 +15604,7 @@ qtwebengine5-dev:
   - qt5-qtwebengine-devel
   ubuntu:
   - qtwebengine5-dev
-  openEuler: *id474
+  openeuler: *id474
 r-base:
   arch:
   - r
@@ -15616,7 +15616,7 @@ r-base:
   - dev-lang/R
   ubuntu:
   - r-base
-  openEuler: *id475
+  openeuler: *id475
 r-base-dev:
   arch:
   - r
@@ -15628,7 +15628,7 @@ r-base-dev:
   - dev-lang/R
   ubuntu:
   - r-base-dev
-  openEuler: *id476
+  openeuler: *id476
 range-v3:
   arch:
   - range-v3
@@ -15668,7 +15668,7 @@ rapidjson-dev:
   - rapidjson-devel
   ubuntu:
   - rapidjson-dev
-  openEuler: *id477
+  openeuler: *id477
 readline-dev:
   arch:
   - readline
@@ -15682,7 +15682,7 @@ readline-dev:
   - readline
   ubuntu:
   - libreadline-dev
-  openEuler: *id478
+  openeuler: *id478
 recode:
   arch:
   - recode
@@ -15696,7 +15696,7 @@ recode:
   - recode
   ubuntu:
   - recode
-  openEuler: *id479
+  openeuler: *id479
 recordmydesktop:
   arch:
   - recordmydesktop
@@ -15719,7 +15719,7 @@ redis-server:
   - redis
   ubuntu:
   - redis-server
-  openEuler: *id480
+  openeuler: *id480
 robin-map-dev:
   alpine:
   - robin-map
@@ -15763,7 +15763,7 @@ rsync:
   - rsync
   ubuntu:
   - rsync
-  openEuler: *id481
+  openeuler: *id481
 rsyslog:
   debian:
   - rsyslog
@@ -15773,7 +15773,7 @@ rsyslog:
   - rsyslog
   ubuntu:
   - rsyslog
-  openEuler: *id482
+  openeuler: *id482
 rt-tests:
   arch:
   - rt-tests
@@ -15826,7 +15826,7 @@ rustc:
   - rust
   ubuntu:
   - rustc
-  openEuler: *id483
+  openeuler: *id483
 sbcl:
   alpine:
   - sbcl
@@ -15873,7 +15873,7 @@ scons:
   - scons
   ubuntu:
   - scons
-  openEuler: *id484
+  openeuler: *id484
 screen:
   arch:
   - screen
@@ -15889,7 +15889,7 @@ screen:
   - screen@openembedded-core
   ubuntu:
   - screen
-  openEuler: *id485
+  openeuler: *id485
 sdformat:
   debian:
   - libsdformat-dev
@@ -15949,7 +15949,7 @@ sdl:
   - SDL-devel
   ubuntu:
   - libsdl1.2-dev
-  openEuler: *id486
+  openeuler: *id486
 sdl-gfx:
   arch:
   - sdl_gfx
@@ -16032,7 +16032,7 @@ sdl2:
   - SDL2-devel
   ubuntu:
   - libsdl2-dev
-  openEuler: *id487
+  openeuler: *id487
 sdl2-image:
   arch:
   - sdl2_image
@@ -16093,7 +16093,7 @@ setserial:
   - setserial
   ubuntu:
   - setserial
-  openEuler: *id488
+  openeuler: *id488
 sfml-dev:
   arch:
   - sfml
@@ -16156,7 +16156,7 @@ smartmontools:
   - smartmontools
   ubuntu:
   - smartmontools
-  openEuler: *id489
+  openeuler: *id489
 smbclient:
   arch:
   - smbclient
@@ -16170,7 +16170,7 @@ smbclient:
   - samba
   ubuntu:
   - smbclient
-  openEuler: *id490
+  openeuler: *id490
 snappy:
   arch:
   - snappy
@@ -16186,7 +16186,7 @@ snappy:
   - snappy-devel
   ubuntu:
   - libsnappy-dev
-  openEuler: *id491
+  openeuler: *id491
 socat:
   arch:
   - socat
@@ -16204,7 +16204,7 @@ socat:
   - socat
   ubuntu:
   - socat
-  openEuler: *id492
+  openeuler: *id492
 sound-theme-freedesktop:
   arch:
   - sound-theme-freedesktop
@@ -16216,7 +16216,7 @@ sound-theme-freedesktop:
   - x11-themes/sound-theme-freedesktop
   ubuntu:
   - sound-theme-freedesktop
-  openEuler: *id493
+  openeuler: *id493
 sox:
   arch:
   - sox
@@ -16230,7 +16230,7 @@ sox:
   - sox
   ubuntu:
   - sox
-  openEuler: *id494
+  openeuler: *id494
 spacenavd:
   debian:
   - spacenavd
@@ -16278,7 +16278,7 @@ spdlog:
   - spdlog-devel
   ubuntu:
   - libspdlog-dev
-  openEuler: *id495
+  openeuler: *id495
 speech-dispatcher:
   arch:
   - speech-dispatcher
@@ -16292,7 +16292,7 @@ speech-dispatcher:
   - speechd
   ubuntu:
   - speech-dispatcher
-  openEuler: *id496
+  openeuler: *id496
 speex:
   arch:
   - speex
@@ -16325,7 +16325,7 @@ spirv-headers:
     '*':
     - spirv-headers
     bionic: null
-  openEuler: *id497
+  openeuler: *id497
 spirv-tools:
   arch:
   - spirv-tools
@@ -16349,7 +16349,7 @@ spirv-tools:
     '*':
     - spirv-tools
     bionic: null
-  openEuler: *id498
+  openeuler: *id498
 sqlite3:
   arch:
   - sqlite
@@ -16367,7 +16367,7 @@ sqlite3:
   - sqlite
   ubuntu:
   - sqlite3
-  openEuler: *id499
+  openeuler: *id499
 ssh-askpass:
   arch:
   - x11-ssh-askpass
@@ -16388,7 +16388,7 @@ ssh-askpass-gnome:
   - net-misc/ssh-askpass-fullscreen
   ubuntu:
   - ssh-askpass-gnome
-  openEuler: *id500
+  openeuler: *id500
 sshpass:
   debian:
   - sshpass
@@ -16400,7 +16400,7 @@ sshpass:
   - sshpass
   ubuntu:
   - sshpass
-  openEuler: *id501
+  openeuler: *id501
 stress:
   arch:
   - stress
@@ -16439,7 +16439,7 @@ stress-ng:
   - stress-ng
   ubuntu:
   - stress-ng
-  openEuler: *id502
+  openeuler: *id502
 subversion:
   arch:
   - subversion
@@ -16463,7 +16463,7 @@ subversion:
   - subversion
   ubuntu:
   - subversion
-  openEuler: *id503
+  openeuler: *id503
 suitesparse:
   arch:
   - suitesparse
@@ -16486,7 +16486,7 @@ suitesparse:
   - suitesparse-devel
   ubuntu:
   - libsuitesparse-dev
-  openEuler: *id504
+  openeuler: *id504
 supervisor:
   arch:
   - supervisor
@@ -16589,7 +16589,7 @@ swig:
   - swig
   ubuntu:
   - swig
-  openEuler: *id505
+  openeuler: *id505
 swig-wx:
   gentoo:
   - dev-lang/swig
@@ -16616,7 +16616,7 @@ sysbench:
   - sysbench
   ubuntu:
   - sysbench
-  openEuler: *id506
+  openeuler: *id506
 sysstat:
   arch:
   - sysstat
@@ -16632,7 +16632,7 @@ sysstat:
   - sysstat@openembedded-core
   ubuntu:
   - sysstat
-  openEuler: *id507
+  openeuler: *id507
 systemd:
   arch:
   - systemd
@@ -16654,7 +16654,7 @@ systemd:
   - systemd
   ubuntu:
   - systemd
-  openEuler: *id508
+  openeuler: *id508
 tango-icon-theme:
   alpine:
   - tango-icon-theme
@@ -16682,7 +16682,7 @@ tango-icon-theme:
   - tango-icon-theme
   ubuntu:
   - tango-icon-theme
-  openEuler: *id509
+  openeuler: *id509
 tap-plugins:
   debian:
   - tap-plugins
@@ -16736,7 +16736,7 @@ tbb:
   - tbb-devel
   ubuntu:
   - libtbb-dev
-  openEuler: *id510
+  openeuler: *id510
 tcsh:
   arch:
   - tcsh
@@ -16750,7 +16750,7 @@ tcsh:
   - tcsh
   ubuntu:
   - tcsh
-  openEuler: *id511
+  openeuler: *id511
 terminator:
   arch:
   - terminator
@@ -16775,7 +16775,7 @@ tesseract-ocr:
   - app-text/tesseract
   ubuntu:
   - tesseract-ocr
-  openEuler: *id512
+  openeuler: *id512
 tesseract-ocr-jpn:
   arch:
   - tesseract-data-jpn
@@ -16787,7 +16787,7 @@ tesseract-ocr-jpn:
   - tesseract-langpack-jpn
   ubuntu:
   - tesseract-ocr-jpn
-  openEuler: *id513
+  openeuler: *id513
 texlive-fonts-extra:
   arch:
   - texlive-fontsextra
@@ -16802,7 +16802,7 @@ texlive-fonts-extra:
   - texlive-fonts-extra
   ubuntu:
   - texlive-fonts-extra
-  openEuler: *id514
+  openeuler: *id514
 texlive-fonts-recommended:
   arch:
   - texlive-fontsrecommended
@@ -16817,7 +16817,7 @@ texlive-fonts-recommended:
   - texlive-fonts-recommended
   ubuntu:
   - texlive-fonts-recommended
-  openEuler: *id515
+  openeuler: *id515
 texlive-full:
   debian:
   - texlive-full
@@ -16842,7 +16842,7 @@ texlive-latex-base:
   - texlive-parskip
   ubuntu:
   - texlive-latex-base
-  openEuler: *id516
+  openeuler: *id516
 texlive-latex-extra:
   arch:
   - texlive-latexextra
@@ -16862,7 +16862,7 @@ texlive-latex-extra:
   - texlive-fancybox
   ubuntu:
   - texlive-latex-extra
-  openEuler: *id517
+  openeuler: *id517
 texlive-latex-recommended:
   arch:
   - texlive-latexrecommended
@@ -16884,7 +16884,7 @@ texlive-latex-recommended:
   - texlive-mdwtools
   ubuntu:
   - texlive-latex-recommended
-  openEuler: *id518
+  openeuler: *id518
 texmaker:
   arch:
   - texmaker
@@ -16930,7 +16930,7 @@ time:
   - time
   ubuntu:
   - time
-  openEuler: *id519
+  openeuler: *id519
 tinyxml:
   alpine:
   - tinyxml-dev
@@ -16958,7 +16958,7 @@ tinyxml:
   - tinyxml
   ubuntu:
   - libtinyxml-dev
-  openEuler: *id520
+  openeuler: *id520
 tinyxml2:
   alpine:
   - tinyxml2-dev
@@ -16982,7 +16982,7 @@ tinyxml2:
   - tinyxml2-devel
   ubuntu:
   - libtinyxml2-dev
-  openEuler: *id521
+  openeuler: *id521
 tix:
   debian:
   - tix
@@ -16994,7 +16994,7 @@ tix:
   - tix
   ubuntu:
   - tix
-  openEuler: *id522
+  openeuler: *id522
 tmux:
   arch:
   - tmux
@@ -17008,7 +17008,7 @@ tmux:
   - tmux
   ubuntu:
   - tmux
-  openEuler: *id523
+  openeuler: *id523
 touchegg:
   arch:
   - touchegg
@@ -17041,7 +17041,7 @@ tree:
   - tree
   ubuntu:
   - tree
-  openEuler: *id524
+  openeuler: *id524
 tshark:
   alpine:
   - tshark
@@ -17115,7 +17115,7 @@ udev:
   - systemd
   ubuntu:
   - udev
-  openEuler: *id525
+  openeuler: *id525
 udhcpc:
   debian:
   - udhcpc
@@ -17153,7 +17153,7 @@ uncrustify:
   - uncrustify
   ubuntu:
   - uncrustify
-  openEuler: *id526
+  openeuler: *id526
 unison:
   arch:
   - unison
@@ -17227,7 +17227,7 @@ unzip:
       - infozip
   ubuntu:
   - unzip
-  openEuler: *id527
+  openeuler: *id527
 usbutils:
   arch:
   - usbutils
@@ -17249,7 +17249,7 @@ usbutils:
       - lsusb
   ubuntu:
   - usbutils
-  openEuler: *id528
+  openeuler: *id528
 util-linux:
   arch:
   - util-linux
@@ -17275,7 +17275,7 @@ util-linux:
     bionic:
     - setpriv
     - util-linux
-  openEuler: *id529
+  openeuler: *id529
 uuid:
   arch:
   - util-linux
@@ -17343,7 +17343,7 @@ valgrind:
   - valgrind
   ubuntu:
   - valgrind
-  openEuler: *id530
+  openeuler: *id530
 vim:
   arch:
   - vim
@@ -17357,7 +17357,7 @@ vim:
   - vim
   ubuntu:
   - vim
-  openEuler: *id531
+  openeuler: *id531
 vlc:
   arch:
   - vlc
@@ -17386,7 +17386,7 @@ vorbis-tools:
   - vorbis-tools
   ubuntu:
   - vorbis-tools
-  openEuler: *id532
+  openeuler: *id532
 wayland:
   arch:
   - wayland
@@ -17430,7 +17430,7 @@ wayland-dev:
   ubuntu:
   - libwayland-dev
   - wayland-protocols
-  openEuler: *id533
+  openeuler: *id533
 wget:
   arch:
   - wget
@@ -17458,7 +17458,7 @@ wget:
   - wget
   ubuntu:
   - wget
-  openEuler: *id534
+  openeuler: *id534
 wireguard:
   arch:
   - wireguard-tools
@@ -17478,7 +17478,7 @@ wireguard:
     '*':
     - wireguard
     bionic: null
-  openEuler: *id535
+  openeuler: *id535
 wireless-tools:
   arch:
   - wireless_tools
@@ -17492,7 +17492,7 @@ wireless-tools:
   - wirelesstools
   ubuntu:
   - wireless-tools
-  openEuler: *id536
+  openeuler: *id536
 wireshark:
   arch:
   - wireshark-qt
@@ -17506,7 +17506,7 @@ wireshark:
   - wireshark
   ubuntu:
   - wireshark
-  openEuler: *id537
+  openeuler: *id537
 wireshark-common:
   arch:
   - wireshark-cli
@@ -17546,7 +17546,7 @@ wmctrl:
   - wmctrl
   ubuntu:
   - wmctrl
-  openEuler: *id538
+  openeuler: *id538
 workrave:
   arch:
   - workrave
@@ -17628,7 +17628,7 @@ x11proto-dri2-dev:
   - xorg-x11-proto-devel
   ubuntu:
   - x11proto-dri2-dev
-  openEuler: *id539
+  openeuler: *id539
 x11proto-gl-dev:
   arch:
   - xorgproto
@@ -17638,7 +17638,7 @@ x11proto-gl-dev:
   - xorg-x11-proto-devel
   ubuntu:
   - x11proto-gl-dev
-  openEuler: *id540
+  openeuler: *id540
 x11proto-print-dev:
   debian:
   - x11proto-print-dev
@@ -17646,7 +17646,7 @@ x11proto-print-dev:
   - xorg-x11-proto-devel
   ubuntu:
   - x11proto-print-dev
-  openEuler: *id541
+  openeuler: *id541
 xclip:
   arch:
   - xclip
@@ -17666,7 +17666,7 @@ xclip:
   - xclip
   ubuntu:
   - xclip
-  openEuler: *id542
+  openeuler: *id542
 xdg-utils:
   alpine:
   - xdg-utils
@@ -17686,7 +17686,7 @@ xdg-utils:
   - xdg-utils
   ubuntu:
   - xdg-utils
-  openEuler: *id543
+  openeuler: *id543
 xdotool:
   arch:
   - xdotool
@@ -17713,7 +17713,7 @@ xerces:
   - xercesc
   ubuntu:
   - libxerces-c-dev
-  openEuler: *id544
+  openeuler: *id544
 xfont-server:
   debian:
   - xfs
@@ -17770,7 +17770,7 @@ xpath-perl:
   - perlPackages.XMLXPath
   ubuntu:
   - libxml-xpath-perl
-  openEuler: *id545
+  openeuler: *id545
 xsimd:
   alpine:
   - xsimd
@@ -17809,7 +17809,7 @@ xsltproc:
   - libxslt
   ubuntu:
   - xsltproc
-  openEuler: *id546
+  openeuler: *id546
 xtensor:
   debian:
   - libxtensor-dev
@@ -17842,13 +17842,13 @@ xterm:
   - xterm
   ubuntu:
   - xterm
-  openEuler: *id547
+  openeuler: *id547
 xulrunner-1.9.2:
   debian: &id548 []
   ubuntu:
     karmic:
     - xulrunner-1.9.2
-  openEuler: *id548
+  openeuler: *id548
 xulrunner-dev:
   debian:
   - libv8-dev
@@ -17869,7 +17869,7 @@ xvfb:
   - xorg-x11-server-Xvfb
   ubuntu:
   - xvfb
-  openEuler: *id549
+  openeuler: *id549
 xz-utils:
   arch:
   - xz
@@ -17883,7 +17883,7 @@ xz-utils:
   - xz
   ubuntu:
   - xz-utils
-  openEuler: *id550
+  openeuler: *id550
 yaml:
   alpine:
   - yaml-dev
@@ -17907,7 +17907,7 @@ yaml:
   - libyaml-devel
   ubuntu:
   - libyaml-dev
-  openEuler: *id551
+  openeuler: *id551
 yaml-cpp:
   alpine:
   - yaml-cpp-dev
@@ -17935,7 +17935,7 @@ yaml-cpp:
   - yaml-cpp
   ubuntu:
   - libyaml-cpp-dev
-  openEuler: *id552
+  openeuler: *id552
 yamllint:
   alpine:
   - yamllint
@@ -17989,7 +17989,7 @@ yasm:
   - yasm
   ubuntu:
   - yasm
-  openEuler: *id553
+  openeuler: *id553
 zbar:
   arch:
   - zbar
@@ -18007,7 +18007,7 @@ zbar:
   - zbar-devel
   ubuntu:
   - libzbar-dev
-  openEuler: *id554
+  openeuler: *id554
 zenity:
   arch:
   - zenity
@@ -18021,7 +18021,7 @@ zenity:
   - gnome.zenity
   ubuntu:
   - zenity
-  openEuler: *id555
+  openeuler: *id555
 zeromq3:
   arch:
   - zeromq
@@ -18035,7 +18035,7 @@ zeromq3:
   - zeromq
   ubuntu:
   - libzmq5
-  openEuler: *id556
+  openeuler: *id556
 zip:
   arch:
   - zip
@@ -18049,7 +18049,7 @@ zip:
   - zip
   ubuntu:
   - zip
-  openEuler: *id557
+  openeuler: *id557
 zlib:
   alpine:
   - zlib-dev
@@ -18081,7 +18081,7 @@ zlib:
       - zlib
   ubuntu:
   - zlib1g-dev
-  openEuler: *id558
+  openeuler: *id558
 zsh:
   alpine:
   - zsh
@@ -18105,7 +18105,7 @@ zsh:
   - zsh
   ubuntu:
   - zsh
-  openEuler: *id559
+  openeuler: *id559
 zziplib:
   arch:
   - zziplib
@@ -18127,4 +18127,4 @@ zziplib:
   - zziplib-devel
   ubuntu:
   - libzzip-dev
-  openEuler: *id560
+  openeuler: *id560
