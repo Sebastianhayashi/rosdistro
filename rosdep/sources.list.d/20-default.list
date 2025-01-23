@@ -1,6 +1,5 @@
 # os-specific listings first
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/osx-homebrew.yam
-l
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/osx-homebrew.yaml
 # generic
 yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/gentoo.yaml
 yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/base.yaml
