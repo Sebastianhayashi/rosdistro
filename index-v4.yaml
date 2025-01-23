@@ -2,6 +2,8 @@
 # ROS index file
 # see REP 153: http://ros.org/reps/rep-0153.html
 ---
+type: index
+version: 4
 distributions:
   ardent:
     distribution: [ardent/distribution.yaml]
@@ -81,12 +83,16 @@ distributions:
     distribution_status: end-of-life
     distribution_type: ros1
     python_version: 2
+
+  # *** THIS IS THE CRITICAL PART FOR 'jazzy' ***
   jazzy:
     distribution: https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/jazzy/distribution.yaml
     distribution_cache: https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/jazzy/distribution-cache.yaml
     distribution_status: active
     distribution_type: ros2
     python_version: 3
+  # *** END JAZZY BLOCK ***
+
   kinetic:
     distribution: [kinetic/distribution.yaml]
     distribution_cache: http://repositories.ros.org/rosdistro_cache/kinetic-cache.yaml.gz
@@ -117,5 +123,3 @@ distributions:
     distribution_status: rolling
     distribution_type: ros2
     python_version: 3
-type: index
-version: 4
