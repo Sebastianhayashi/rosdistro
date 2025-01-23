@@ -1,12 +1,14 @@
 # os-specific listings first
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/refs/heads/openeuler_init/rosdep/osx-homebrew.yaml
-
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/osx-homebrew.yam
+l
 # generic
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/refs/heads/openeuler_init/rosdep/base_openeuler.yaml
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/refs/heads/openeuler_init/rosdep/base.yaml
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/refs/heads/openeuler_init/rosdep/gentoo.yaml
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/refs/heads/openeuler_init/rosdep/python.yaml
-yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/refs/heads/openeuler_init/rosdep/ruby.yaml
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/gentoo.yaml
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/base.yaml
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/base_openeuler.yaml
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/python.yaml
+yaml https://raw.githubusercontent.com/Sebastianhayashi/rosdistro/openeuler_init/rosdep/ruby.yaml
+
+
 
 gbpdistro https://raw.githubusercontent.com/ros/rosdistro/master/releases/fuerte.yaml fuerte
 
