@@ -5968,6 +5968,9 @@ python3-flake8-builtins:
     '*': [python3-flake8-builtins]
     bionic: null
     focal: null
+  openeuler:
+    pip:
+      packages:[flake8-builtins]
 python3-flake8-builtins-pip:
   ubuntu:
     pip:
@@ -6005,6 +6008,9 @@ python3-flake8-comprehensions:
     '*': [python3-flake8-comprehensions]
     bionic: null
     focal: null
+  openeuler:
+    pip:
+      packages:[python3-flake8-comprehensions]
 python3-flake8-comprehensions-pip:
   ubuntu:
     pip:
@@ -6097,6 +6103,9 @@ python3-flake8-quotes:
     '*': [python3-flake8-quotes]
     bionic: null
     focal: null
+  openeuler:
+    pip:
+      packages:[python3-flake8-quotes]
 python3-flake8-quotes-pip:
   ubuntu:
     pip:
