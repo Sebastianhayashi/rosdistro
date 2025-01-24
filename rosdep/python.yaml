@@ -9887,6 +9887,9 @@ python3-vcstool:
       packages: [vcstool]
   nixos: [vcstool]
   openembedded: [python3-vcstool@meta-ros-common]
+  openeuler:
+    pip:
+      packages:[vcstool]
   osx:
     pip:
       packages: [vcstool]
